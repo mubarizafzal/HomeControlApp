@@ -22,10 +22,20 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.SuspendLayout()
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(1182, 653)
+        Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.ResumeLayout(False)
+
     End Sub
 
 End Class
