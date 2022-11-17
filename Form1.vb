@@ -4,6 +4,11 @@
         NewWindow.Show()
     End Sub
 
+    Private Sub Door_Click(sender As Object, e As EventArgs) Handles Door.Click
+        Dim NewWindow As New Door()
+        NewWindow.Show()
+    End Sub
+
     Private Sub Movement_Click(sender As Object, e As EventArgs) Handles Movement.Click
         Dim NewWindow As New Movement()
         NewWindow.Show()
