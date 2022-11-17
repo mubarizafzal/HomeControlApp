@@ -18,4 +18,5 @@
         Dim NewWindow As New Environment()
         NewWindow.Show()
     End Sub
+    
 End Class
