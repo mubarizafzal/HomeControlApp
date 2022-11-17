@@ -13,4 +13,12 @@ Public Class Elevator
     Private Sub CallElevator_Click(sender As Object, e As EventArgs) Handles CallElevator.Click
 
     End Sub
+
+    Private Sub Ele_back_Click(sender As Object, e As EventArgs) Handles Ele_back.Click
+
+    End Sub
+
+    Private Sub Ele_Home_Click(sender As Object, e As EventArgs) Handles Ele_Home.Click
+
+    End Sub
 End Class
