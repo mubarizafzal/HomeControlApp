@@ -22,14 +22,17 @@ Partial Class SelectFloor
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SelectFloor))
         Me.Ele_Floor1 = New System.Windows.Forms.Button()
         Me.Ele_Floor2 = New System.Windows.Forms.Button()
         Me.Ele_Floor3 = New System.Windows.Forms.Button()
+        Me.Sel_Floor_Back = New System.Windows.Forms.Button()
+        Me.Sel_Floor_Home = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Ele_Floor1
         '
-        Me.Ele_Floor1.Location = New System.Drawing.Point(168, 175)
+        Me.Ele_Floor1.Location = New System.Drawing.Point(264, 271)
         Me.Ele_Floor1.Name = "Ele_Floor1"
         Me.Ele_Floor1.Size = New System.Drawing.Size(75, 75)
         Me.Ele_Floor1.TabIndex = 0
@@ -38,7 +41,7 @@ Partial Class SelectFloor
         '
         'Ele_Floor2
         '
-        Me.Ele_Floor2.Location = New System.Drawing.Point(337, 175)
+        Me.Ele_Floor2.Location = New System.Drawing.Point(433, 271)
         Me.Ele_Floor2.Name = "Ele_Floor2"
         Me.Ele_Floor2.Size = New System.Drawing.Size(75, 75)
         Me.Ele_Floor2.TabIndex = 1
@@ -47,18 +50,39 @@ Partial Class SelectFloor
         '
         'Ele_Floor3
         '
-        Me.Ele_Floor3.Location = New System.Drawing.Point(518, 175)
+        Me.Ele_Floor3.Location = New System.Drawing.Point(614, 271)
         Me.Ele_Floor3.Name = "Ele_Floor3"
         Me.Ele_Floor3.Size = New System.Drawing.Size(75, 75)
         Me.Ele_Floor3.TabIndex = 2
         Me.Ele_Floor3.Text = "Floor 3"
         Me.Ele_Floor3.UseVisualStyleBackColor = True
         '
+        'Sel_Floor_Back
+        '
+        Me.Sel_Floor_Back.Location = New System.Drawing.Point(96, 500)
+        Me.Sel_Floor_Back.Name = "Sel_Floor_Back"
+        Me.Sel_Floor_Back.Size = New System.Drawing.Size(75, 75)
+        Me.Sel_Floor_Back.TabIndex = 3
+        Me.Sel_Floor_Back.Text = "Back"
+        Me.Sel_Floor_Back.UseVisualStyleBackColor = True
+        '
+        'Sel_Floor_Home
+        '
+        Me.Sel_Floor_Home.Location = New System.Drawing.Point(797, 500)
+        Me.Sel_Floor_Home.Name = "Sel_Floor_Home"
+        Me.Sel_Floor_Home.Size = New System.Drawing.Size(75, 75)
+        Me.Sel_Floor_Home.TabIndex = 4
+        Me.Sel_Floor_Home.Text = "Home"
+        Me.Sel_Floor_Home.UseVisualStyleBackColor = True
+        '
         'SelectFloor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(968, 671)
+        Me.Controls.Add(Me.Sel_Floor_Home)
+        Me.Controls.Add(Me.Sel_Floor_Back)
         Me.Controls.Add(Me.Ele_Floor3)
         Me.Controls.Add(Me.Ele_Floor2)
         Me.Controls.Add(Me.Ele_Floor1)
@@ -71,4 +95,6 @@ Partial Class SelectFloor
     Friend WithEvents Ele_Floor1 As Button
     Friend WithEvents Ele_Floor2 As Button
     Friend WithEvents Ele_Floor3 As Button
+    Friend WithEvents Sel_Floor_Back As Button
+    Friend WithEvents Sel_Floor_Home As Button
 End Class
