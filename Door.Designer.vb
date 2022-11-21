@@ -22,6 +22,7 @@ Partial Class Door
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Door))
         Me.Door_lock = New System.Windows.Forms.Button()
         Me.Door_Close = New System.Windows.Forms.Button()
         Me.Door_Unlock = New System.Windows.Forms.Button()
@@ -35,7 +36,7 @@ Partial Class Door
         '
         'Door_lock
         '
-        Me.Door_lock.Location = New System.Drawing.Point(121, 201)
+        Me.Door_lock.Location = New System.Drawing.Point(202, 314)
         Me.Door_lock.Name = "Door_lock"
         Me.Door_lock.Size = New System.Drawing.Size(75, 75)
         Me.Door_lock.TabIndex = 3
@@ -44,7 +45,7 @@ Partial Class Door
         '
         'Door_Close
         '
-        Me.Door_Close.Location = New System.Drawing.Point(579, 201)
+        Me.Door_Close.Location = New System.Drawing.Point(660, 314)
         Me.Door_Close.Name = "Door_Close"
         Me.Door_Close.Size = New System.Drawing.Size(75, 75)
         Me.Door_Close.TabIndex = 4
@@ -53,7 +54,7 @@ Partial Class Door
         '
         'Door_Unlock
         '
-        Me.Door_Unlock.Location = New System.Drawing.Point(281, 201)
+        Me.Door_Unlock.Location = New System.Drawing.Point(362, 314)
         Me.Door_Unlock.Name = "Door_Unlock"
         Me.Door_Unlock.Size = New System.Drawing.Size(75, 75)
         Me.Door_Unlock.TabIndex = 5
@@ -62,7 +63,7 @@ Partial Class Door
         '
         'Door_Open
         '
-        Me.Door_Open.Location = New System.Drawing.Point(435, 201)
+        Me.Door_Open.Location = New System.Drawing.Point(516, 314)
         Me.Door_Open.Name = "Door_Open"
         Me.Door_Open.Size = New System.Drawing.Size(75, 75)
         Me.Door_Open.TabIndex = 6
@@ -71,7 +72,7 @@ Partial Class Door
         '
         'Door_Back
         '
-        Me.Door_Back.Location = New System.Drawing.Point(12, 363)
+        Me.Door_Back.Location = New System.Drawing.Point(97, 498)
         Me.Door_Back.Name = "Door_Back"
         Me.Door_Back.Size = New System.Drawing.Size(75, 75)
         Me.Door_Back.TabIndex = 7
@@ -80,7 +81,7 @@ Partial Class Door
         '
         'Door_Home
         '
-        Me.Door_Home.Location = New System.Drawing.Point(713, 363)
+        Me.Door_Home.Location = New System.Drawing.Point(798, 498)
         Me.Door_Home.Name = "Door_Home"
         Me.Door_Home.Size = New System.Drawing.Size(75, 75)
         Me.Door_Home.TabIndex = 8
@@ -90,7 +91,7 @@ Partial Class Door
         'Building_Door
         '
         Me.Building_Door.AutoSize = True
-        Me.Building_Door.Location = New System.Drawing.Point(121, 75)
+        Me.Building_Door.Location = New System.Drawing.Point(202, 188)
         Me.Building_Door.Name = "Building_Door"
         Me.Building_Door.Size = New System.Drawing.Size(129, 19)
         Me.Building_Door.TabIndex = 9
@@ -100,7 +101,7 @@ Partial Class Door
         'Apartment_Door
         '
         Me.Apartment_Door.AutoSize = True
-        Me.Apartment_Door.Location = New System.Drawing.Point(342, 75)
+        Me.Apartment_Door.Location = New System.Drawing.Point(423, 188)
         Me.Apartment_Door.Name = "Apartment_Door"
         Me.Apartment_Door.Size = New System.Drawing.Size(111, 19)
         Me.Apartment_Door.TabIndex = 10
@@ -110,7 +111,7 @@ Partial Class Door
         'Hallway_Door
         '
         Me.Hallway_Door.AutoSize = True
-        Me.Hallway_Door.Location = New System.Drawing.Point(553, 75)
+        Me.Hallway_Door.Location = New System.Drawing.Point(634, 188)
         Me.Hallway_Door.Name = "Hallway_Door"
         Me.Hallway_Door.Size = New System.Drawing.Size(96, 19)
         Me.Hallway_Door.TabIndex = 11
@@ -121,7 +122,8 @@ Partial Class Door
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(968, 671)
         Me.Controls.Add(Me.Hallway_Door)
         Me.Controls.Add(Me.Apartment_Door)
         Me.Controls.Add(Me.Building_Door)
@@ -132,6 +134,7 @@ Partial Class Door
         Me.Controls.Add(Me.Door_Close)
         Me.Controls.Add(Me.Door_lock)
         Me.Name = "Door"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Door"
         Me.ResumeLayout(False)
         Me.PerformLayout()

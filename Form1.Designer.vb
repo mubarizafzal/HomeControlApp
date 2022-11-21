@@ -121,7 +121,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1034, 670)
+        Me.ClientSize = New System.Drawing.Size(968, 671)
         Me.Controls.Add(Me.Communication)
         Me.Controls.Add(Me.Bed)
         Me.Controls.Add(Me.Entertainment)
@@ -133,6 +133,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Movement)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 

@@ -22,6 +22,7 @@ Partial Class Elevator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Elevator))
         Me.CallElevator = New System.Windows.Forms.Button()
         Me.SelectFloor = New System.Windows.Forms.Button()
         Me.Ele_back = New System.Windows.Forms.Button()
@@ -30,7 +31,7 @@ Partial Class Elevator
         '
         'CallElevator
         '
-        Me.CallElevator.Location = New System.Drawing.Point(244, 178)
+        Me.CallElevator.Location = New System.Drawing.Point(329, 278)
         Me.CallElevator.Name = "CallElevator"
         Me.CallElevator.Size = New System.Drawing.Size(75, 75)
         Me.CallElevator.TabIndex = 0
@@ -39,7 +40,7 @@ Partial Class Elevator
         '
         'SelectFloor
         '
-        Me.SelectFloor.Location = New System.Drawing.Point(461, 178)
+        Me.SelectFloor.Location = New System.Drawing.Point(546, 278)
         Me.SelectFloor.Name = "SelectFloor"
         Me.SelectFloor.Size = New System.Drawing.Size(75, 75)
         Me.SelectFloor.TabIndex = 1
@@ -48,7 +49,7 @@ Partial Class Elevator
         '
         'Ele_back
         '
-        Me.Ele_back.Location = New System.Drawing.Point(12, 363)
+        Me.Ele_back.Location = New System.Drawing.Point(97, 501)
         Me.Ele_back.Name = "Ele_back"
         Me.Ele_back.Size = New System.Drawing.Size(75, 75)
         Me.Ele_back.TabIndex = 2
@@ -57,7 +58,7 @@ Partial Class Elevator
         '
         'Ele_Home
         '
-        Me.Ele_Home.Location = New System.Drawing.Point(713, 363)
+        Me.Ele_Home.Location = New System.Drawing.Point(798, 501)
         Me.Ele_Home.Name = "Ele_Home"
         Me.Ele_Home.Size = New System.Drawing.Size(75, 75)
         Me.Ele_Home.TabIndex = 3
@@ -68,12 +69,14 @@ Partial Class Elevator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(968, 671)
         Me.Controls.Add(Me.Ele_Home)
         Me.Controls.Add(Me.Ele_back)
         Me.Controls.Add(Me.SelectFloor)
         Me.Controls.Add(Me.CallElevator)
         Me.Name = "Elevator"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Elevator"
         Me.ResumeLayout(False)
 
