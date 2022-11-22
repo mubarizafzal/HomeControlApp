@@ -41,9 +41,13 @@ Public Class Elevator
             ElseIf Me.selectionSequence(selectionIndex).Name = "SelectFloor" Then
                 Dim NewWindow As New SelectFloor()
                 NewWindow.Show()
+            ElseIf Me.selectionSequence(selectionIndex).Name = "CallElevator" Then
+                MsgBox("The elevator has been called.")
             End If
         End If
     End Sub
+
+
 
     Private Sub SelectFloor_Click(sender As Object, e As EventArgs) Handles SelectFloor.Click
         Dim NewWindow As New SelectFloor()
@@ -51,14 +55,13 @@ Public Class Elevator
     End Sub
 
     Private Sub CallElevator_Click(sender As Object, e As EventArgs) Handles CallElevator.Click
-
+        MsgBox("The elevator has been called.")
+        Me.CallElevator.TabStop = False
     End Sub
 
-    Private Sub Ele_back_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Ele_Home_Click(sender As Object, e As EventArgs) Handles Close.Click
-
+    Private Sub Elevator_MouseClick(sender As Object, e As MouseEventArgs) Handles Me.MouseClick
+        Me.CallElevator.TabIndex = 0
+        Me.SelectFloor.TabStop = False
+        Me.Close.TabStop = False
     End Sub
 End Class

@@ -44,9 +44,6 @@
 
     Private Sub Door_KeyPress(sender As Object, e As KeyPressEventArgs) Handles MyBase.KeyPress
         If e.KeyChar = " " Then
-            If Me.selectionSequence(selectionIndex).Name = "Close" Then
-                ActiveForm.Close()
-            End If
             Dim currentSelection As Object = selectionSequence(selectionIndex)
             ' Open the appropriate window based on the current selection
             Select Case currentSelection.Name
