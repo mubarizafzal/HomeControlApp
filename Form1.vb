@@ -59,6 +59,15 @@ Public Class Form1
                 Case Me.Apartment.Name
                     Dim NewWindow As New Environment()
                     NewWindow.Show()
+                Case Me.Entertainment.Name
+                    Dim NewWindow As New Entertainment()
+                    NewWindow.Show()
+                Case Me.Visiting.Name
+                    Dim NewWindow As New Visiting()
+                    NewWindow.Show()
+                Case Me.CallAssist.Name
+                    Dim NewWindow As New Assistance()
+                    NewWindow.Show()
             End Select
         End If
     End Sub
@@ -68,18 +77,4 @@ Public Class Form1
         Me.Invalidate()
     End Sub
 
-    Private Sub Entertainment_Click(sender As Object, e As EventArgs) Handles Entertainment.Click
-        Dim NewWindow As New Entertainment()
-        NewWindow.Show()
-    End Sub
-
-    Private Sub Visiting_Click(sender As Object, e As EventArgs) Handles Visiting.Click
-        Dim NewWindow As New Visiting()
-        NewWindow.Show()
-    End Sub
-
-    Private Sub CallAssist_Click(sender As Object, e As EventArgs) Handles CallAssist.Click
-        Dim NewWindow As New Assistance()
-        NewWindow.Show()
-    End Sub
 End Class
