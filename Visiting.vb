@@ -5,21 +5,21 @@
     Private redPen As New Pen(Color.FromArgb(255, 240, 0, 0), 4)
 
     Private Sub Visiting_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Visit_Floor1.TabStop = False
-        Me.Visit_Floor2.TabStop = False
-        Me.Visit_Floor3.TabStop = False
-        Me.Visit_Apart1.TabStop = False
-        Me.Visit_Apart2.TabStop = False
-        Me.Visit_Apart3.TabStop = False
+        Me.Visit_201.TabStop = False
+        Me.Visit_202.TabStop = False
+        Me.Visit_203.TabStop = False
+        Me.Visit_301.TabStop = False
+        Me.Visit_302.TabStop = False
+        Me.Visit_303.TabStop = False
         Me.Visit_Doorbell.TabStop = False
         Me.Close.TabStop = False
 
-        Me.selectionSequence(0) = Me.Visit_Floor1
-        Me.selectionSequence(1) = Me.Visit_Floor2
-        Me.selectionSequence(2) = Me.Visit_Floor3
-        Me.selectionSequence(3) = Me.Visit_Apart1
-        Me.selectionSequence(4) = Me.Visit_Apart2
-        Me.selectionSequence(5) = Me.Visit_Apart3
+        Me.selectionSequence(0) = Me.Visit_201
+        Me.selectionSequence(1) = Me.Visit_202
+        Me.selectionSequence(2) = Me.Visit_203
+        Me.selectionSequence(3) = Me.Visit_301
+        Me.selectionSequence(4) = Me.Visit_302
+        Me.selectionSequence(5) = Me.Visit_303
         Me.selectionSequence(6) = Me.Visit_Doorbell
         Me.selectionSequence(7) = Me.Close
 
@@ -44,13 +44,72 @@
 
     Private Sub Visiting_KeyPress(sender As Object, e As KeyPressEventArgs) Handles MyBase.KeyPress
         If e.KeyChar = " " Then
-            If Me.selectionSequence(selectionIndex).Name = "Close" Then
-                ActiveForm.Close()
-            End If
+            'If Me.selectionSequence(selectionIndex).Name = "Close" Then
+            '    ActiveForm.Close()
+            'ElseIf Me.selectionSequence(selectionIndex).Name = "Visit_201" Then
+            '    Visit_201.Checked = True
+            'ElseIf Me.selectionSequence(selectionIndex).Name = "Visit_Doorbell" Then
+            '    MsgBox("The doorbell has been rung.")
+            'End If
+            Dim currentSelection As ButtonBase = selectionSequence(selectionIndex)
+            ' Open the appropriate window based on the current selection
+            Select Case currentSelection.Name
+                Case Me.Close.Name
+                    ActiveForm.Close()
+
+                Case Me.Visit_201.Name
+                    Visit_201.Checked = True
+                    'Visit_202.Checked = False
+                    'Visit_203.Checked = False
+                    'Visit_301.Checked = False
+                    'Visit_302.Checked = False
+                    'Visit_303.Checked = False
+                Case Me.Visit_202.Name
+                    'Visit_201.Checked = False
+                    Visit_202.Checked = True
+                    'Visit_203.Checked = False
+                    'Visit_301.Checked = False
+                    'Visit_302.Checked = False
+                    'Visit_303.Checked = False
+                Case Me.Visit_203.Name
+                    'Visit_201.Checked = False
+                    'Visit_202.Checked = False
+                    Visit_203.Checked = True
+                    'Visit_301.Checked = False
+                    'Visit_302.Checked = False
+                    'Visit_303.Checked = False
+                Case Me.Visit_301.Name
+                    'Visit_201.Checked = False
+                    'Visit_202.Checked = False
+                    'Visit_203.Checked = False
+                    Visit_301.Checked = True
+                    'Visit_302.Checked = False
+                    'Visit_303.Checked = False
+                Case Me.Visit_302.Name
+                    'Visit_201.Checked = False
+                    'Visit_202.Checked = False
+                    'Visit_203.Checked = False
+                    'Visit_301.Checked = False
+                    Visit_302.Checked = True
+                    'Visit_303.Checked = False
+                Case Me.Visit_303.Name
+                    'Visit_201.Checked = False
+                    'Visit_202.Checked = False
+                    'Visit_203.Checked = False
+                    'Visit_301.Checked = False
+                    'Visit_302.Checked = False
+                    Visit_303.Checked = True
+                Case Me.Visit_Doorbell.Name
+                    MsgBox("The doorbell has been rung.")
+            End Select
         End If
     End Sub
 
     Private Sub Close_Click(sender As Object, e As EventArgs) Handles Close.Click
         ActiveForm.Close()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
     End Sub
 End Class

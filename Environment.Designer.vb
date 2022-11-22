@@ -382,13 +382,13 @@ Partial Class Environment
                 Case Me.Env_Lights_Off.Name
                     MsgBox("The lights are now off.")
                 Case Me.Env_Win_Close.Name
-                    MsgBox("The windows are noe closed.")
+                    MsgBox("The windows are now closed.")
                 Case Me.Env_Win_Open.Name
-                    MsgBox("The windows are noe opened.")
+                    MsgBox("The windows are now opened.")
                 Case Me.Env_Blinds_Open.Name
-                    MsgBox("The blinds are noe opened.")
+                    MsgBox("The blinds are now opened.")
                 Case Me.Env_Blinds_Close.Name
-                    MsgBox("The blinds are noe Closed.")
+                    MsgBox("The blinds are now closed.")
                 Case Me.Env_Fan_On.Name
                     MsgBox("The fan is now On.")
                 Case Me.Env_Fan_Off.Name
