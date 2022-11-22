@@ -45,6 +45,13 @@ Public Class Elevator
                 MsgBox("The elevator has been called.")
             End If
         End If
+        If e.KeyChar = "1" Then
+            Dim NewWindow As New PhoneCall()
+            NewWindow.Show()
+        End If
+        If e.KeyChar = "2" Then
+            MsgBox("Your doorbell has been rung!")
+        End If
     End Sub
 
 

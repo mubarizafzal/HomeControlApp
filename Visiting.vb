@@ -103,6 +103,13 @@
                     MsgBox("The doorbell has been rung.")
             End Select
         End If
+        If e.KeyChar = "1" Then
+            Dim NewWindow As New PhoneCall()
+            NewWindow.Show()
+        End If
+        If e.KeyChar = "2" Then
+            MsgBox("Your doorbell has been rung!")
+        End If
     End Sub
 
     Private Sub Close_Click(sender As Object, e As EventArgs) Handles Close.Click

@@ -71,6 +71,13 @@ Public Class Form1
                     NewWindow.Show()
             End Select
         End If
+        If e.KeyChar = "1" Then
+            Dim NewWindow As New PhoneCall()
+            NewWindow.Show()
+        End If
+        If e.KeyChar = "2" Then
+            MsgBox("Your doorbell has been rung!")
+        End If
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
