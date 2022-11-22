@@ -23,4 +23,9 @@
         Dim NewWindow As New Entertainment()
         NewWindow.Show()
     End Sub
+
+    Private Sub Visiting_Click(sender As Object, e As EventArgs) Handles Visiting.Click
+        Dim NewWindow As New Visiting()
+        NewWindow.Show()
+    End Sub
 End Class
