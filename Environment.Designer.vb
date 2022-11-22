@@ -271,6 +271,7 @@ Partial Class Environment
         Me.Controls.Add(Me.Env_Apartment)
         Me.DoubleBuffered = True
         Me.Name = "Environment"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Environment"
         Me.ResumeLayout(False)
         Me.PerformLayout()
