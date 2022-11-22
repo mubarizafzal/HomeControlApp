@@ -46,6 +46,7 @@ Public Class Form1
     Private Sub Form1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles MyBase.KeyPress
         If e.KeyChar = " " Then
             Dim currentSelection As Button = selectionSequence(selectionIndex)
+            ' Open the appropriate window based on the current selection
             Select Case currentSelection.Name
                 Case Me.Elevator.Name
                     Dim NewWindow As New Elevator()
