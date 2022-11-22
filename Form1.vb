@@ -19,4 +19,8 @@
         NewWindow.Show()
     End Sub
 
+    Private Sub Entertainment_Click(sender As Object, e As EventArgs) Handles Entertainment.Click
+        Dim NewWindow As New Entertainment()
+        NewWindow.Show()
+    End Sub
 End Class
