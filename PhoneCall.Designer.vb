@@ -74,6 +74,7 @@ Partial Class PhoneCall
         Me.Controls.Add(Me.Label1)
         Me.DoubleBuffered = True
         Me.Name = "PhoneCall"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PhoneCall"
         Me.ResumeLayout(False)
         Me.PerformLayout()
