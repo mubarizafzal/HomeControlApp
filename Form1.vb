@@ -28,4 +28,9 @@
         Dim NewWindow As New Visiting()
         NewWindow.Show()
     End Sub
+
+    Private Sub CallAssist_Click(sender As Object, e As EventArgs) Handles CallAssist.Click
+        Dim NewWindow As New Assistance()
+        NewWindow.Show()
+    End Sub
 End Class
