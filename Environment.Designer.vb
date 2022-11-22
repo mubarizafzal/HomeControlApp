@@ -51,10 +51,9 @@ Partial Class Environment
         '
         Me.Env_Apartment.AutoSize = True
         Me.Env_Apartment.Checked = True
-        Me.Env_Apartment.Location = New System.Drawing.Point(181, 105)
-        Me.Env_Apartment.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Apartment.Location = New System.Drawing.Point(158, 79)
         Me.Env_Apartment.Name = "Env_Apartment"
-        Me.Env_Apartment.Size = New System.Drawing.Size(101, 24)
+        Me.Env_Apartment.Size = New System.Drawing.Size(82, 19)
         Me.Env_Apartment.TabIndex = 0
         Me.Env_Apartment.TabStop = True
         Me.Env_Apartment.Text = "Apartment"
@@ -63,10 +62,9 @@ Partial Class Environment
         'Env_Bedroom
         '
         Me.Env_Bedroom.AutoSize = True
-        Me.Env_Bedroom.Location = New System.Drawing.Point(360, 105)
-        Me.Env_Bedroom.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Bedroom.Location = New System.Drawing.Point(315, 79)
         Me.Env_Bedroom.Name = "Env_Bedroom"
-        Me.Env_Bedroom.Size = New System.Drawing.Size(92, 24)
+        Me.Env_Bedroom.Size = New System.Drawing.Size(74, 19)
         Me.Env_Bedroom.TabIndex = 1
         Me.Env_Bedroom.TabStop = True
         Me.Env_Bedroom.Text = "Bedroom"
@@ -75,10 +73,9 @@ Partial Class Environment
         'Env_Living
         '
         Me.Env_Living.AutoSize = True
-        Me.Env_Living.Location = New System.Drawing.Point(553, 105)
-        Me.Env_Living.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Living.Location = New System.Drawing.Point(484, 79)
         Me.Env_Living.Name = "Env_Living"
-        Me.Env_Living.Size = New System.Drawing.Size(69, 24)
+        Me.Env_Living.Size = New System.Drawing.Size(57, 19)
         Me.Env_Living.TabIndex = 2
         Me.Env_Living.TabStop = True
         Me.Env_Living.Text = "Living"
@@ -87,10 +84,9 @@ Partial Class Environment
         'Env_Kitchen
         '
         Me.Env_Kitchen.AutoSize = True
-        Me.Env_Kitchen.Location = New System.Drawing.Point(707, 105)
-        Me.Env_Kitchen.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Kitchen.Location = New System.Drawing.Point(619, 79)
         Me.Env_Kitchen.Name = "Env_Kitchen"
-        Me.Env_Kitchen.Size = New System.Drawing.Size(79, 24)
+        Me.Env_Kitchen.Size = New System.Drawing.Size(65, 19)
         Me.Env_Kitchen.TabIndex = 3
         Me.Env_Kitchen.TabStop = True
         Me.Env_Kitchen.Text = "Kitchen"
@@ -98,120 +94,108 @@ Partial Class Environment
         '
         'Env_Light_On
         '
-        Me.Env_Light_On.Location = New System.Drawing.Point(105, 174)
-        Me.Env_Light_On.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Light_On.Location = New System.Drawing.Point(92, 130)
         Me.Env_Light_On.Name = "Env_Light_On"
-        Me.Env_Light_On.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Light_On.Size = New System.Drawing.Size(75, 75)
         Me.Env_Light_On.TabIndex = 4
         Me.Env_Light_On.Text = "Lights On"
         Me.Env_Light_On.UseVisualStyleBackColor = True
         '
         'Env_Lights_Off
         '
-        Me.Env_Lights_Off.Location = New System.Drawing.Point(197, 174)
-        Me.Env_Lights_Off.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Lights_Off.Location = New System.Drawing.Point(172, 130)
         Me.Env_Lights_Off.Name = "Env_Lights_Off"
-        Me.Env_Lights_Off.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Lights_Off.Size = New System.Drawing.Size(75, 75)
         Me.Env_Lights_Off.TabIndex = 5
         Me.Env_Lights_Off.Text = "Lights Off"
         Me.Env_Lights_Off.UseVisualStyleBackColor = True
         '
         'Env_Win_Open
         '
-        Me.Env_Win_Open.Location = New System.Drawing.Point(402, 174)
-        Me.Env_Win_Open.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Win_Open.Location = New System.Drawing.Point(352, 130)
         Me.Env_Win_Open.Name = "Env_Win_Open"
-        Me.Env_Win_Open.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Win_Open.Size = New System.Drawing.Size(75, 75)
         Me.Env_Win_Open.TabIndex = 6
         Me.Env_Win_Open.Text = "Open Window"
         Me.Env_Win_Open.UseVisualStyleBackColor = True
         '
         'Env_Win_Close
         '
-        Me.Env_Win_Close.Location = New System.Drawing.Point(494, 174)
-        Me.Env_Win_Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Win_Close.Location = New System.Drawing.Point(432, 130)
         Me.Env_Win_Close.Name = "Env_Win_Close"
-        Me.Env_Win_Close.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Win_Close.Size = New System.Drawing.Size(75, 75)
         Me.Env_Win_Close.TabIndex = 7
         Me.Env_Win_Close.Text = "Close Window"
         Me.Env_Win_Close.UseVisualStyleBackColor = True
         '
         'Env_Blinds_Open
         '
-        Me.Env_Blinds_Open.Location = New System.Drawing.Point(686, 174)
-        Me.Env_Blinds_Open.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Blinds_Open.Location = New System.Drawing.Point(600, 130)
         Me.Env_Blinds_Open.Name = "Env_Blinds_Open"
-        Me.Env_Blinds_Open.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Blinds_Open.Size = New System.Drawing.Size(75, 75)
         Me.Env_Blinds_Open.TabIndex = 8
         Me.Env_Blinds_Open.Text = "Open Blinds"
         Me.Env_Blinds_Open.UseVisualStyleBackColor = True
         '
         'Env_Blinds_Close
         '
-        Me.Env_Blinds_Close.Location = New System.Drawing.Point(778, 174)
-        Me.Env_Blinds_Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Blinds_Close.Location = New System.Drawing.Point(681, 130)
         Me.Env_Blinds_Close.Name = "Env_Blinds_Close"
-        Me.Env_Blinds_Close.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Blinds_Close.Size = New System.Drawing.Size(75, 75)
         Me.Env_Blinds_Close.TabIndex = 9
         Me.Env_Blinds_Close.Text = "Close Blinds"
         Me.Env_Blinds_Close.UseVisualStyleBackColor = True
         '
         'Env_Temp_Up
         '
-        Me.Env_Temp_Up.Location = New System.Drawing.Point(105, 333)
-        Me.Env_Temp_Up.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Temp_Up.Location = New System.Drawing.Point(92, 250)
         Me.Env_Temp_Up.Name = "Env_Temp_Up"
-        Me.Env_Temp_Up.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Temp_Up.Size = New System.Drawing.Size(75, 75)
         Me.Env_Temp_Up.TabIndex = 10
         Me.Env_Temp_Up.Text = "Increase"
         Me.Env_Temp_Up.UseVisualStyleBackColor = True
         '
         'Env_Temp_Down
         '
-        Me.Env_Temp_Down.Location = New System.Drawing.Point(197, 333)
-        Me.Env_Temp_Down.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Temp_Down.Location = New System.Drawing.Point(172, 250)
         Me.Env_Temp_Down.Name = "Env_Temp_Down"
-        Me.Env_Temp_Down.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Temp_Down.Size = New System.Drawing.Size(75, 75)
         Me.Env_Temp_Down.TabIndex = 11
         Me.Env_Temp_Down.Text = "Decrease"
         Me.Env_Temp_Down.UseVisualStyleBackColor = True
         '
         'Env_Humid_Up
         '
-        Me.Env_Humid_Up.Location = New System.Drawing.Point(402, 333)
-        Me.Env_Humid_Up.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Humid_Up.Location = New System.Drawing.Point(352, 250)
         Me.Env_Humid_Up.Name = "Env_Humid_Up"
-        Me.Env_Humid_Up.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Humid_Up.Size = New System.Drawing.Size(75, 75)
         Me.Env_Humid_Up.TabIndex = 12
         Me.Env_Humid_Up.Text = "Increase"
         Me.Env_Humid_Up.UseVisualStyleBackColor = True
         '
         'Env_Humid_Down
         '
-        Me.Env_Humid_Down.Location = New System.Drawing.Point(494, 333)
-        Me.Env_Humid_Down.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Humid_Down.Location = New System.Drawing.Point(432, 250)
         Me.Env_Humid_Down.Name = "Env_Humid_Down"
-        Me.Env_Humid_Down.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Humid_Down.Size = New System.Drawing.Size(75, 75)
         Me.Env_Humid_Down.TabIndex = 13
         Me.Env_Humid_Down.Text = "Decrease"
         Me.Env_Humid_Down.UseVisualStyleBackColor = True
         '
         'Env_Fan_On
         '
-        Me.Env_Fan_On.Location = New System.Drawing.Point(686, 333)
-        Me.Env_Fan_On.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Fan_On.Location = New System.Drawing.Point(600, 250)
         Me.Env_Fan_On.Name = "Env_Fan_On"
-        Me.Env_Fan_On.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Fan_On.Size = New System.Drawing.Size(75, 75)
         Me.Env_Fan_On.TabIndex = 14
         Me.Env_Fan_On.Text = "Fan On"
         Me.Env_Fan_On.UseVisualStyleBackColor = True
         '
         'Env_Fan_Off
         '
-        Me.Env_Fan_Off.Location = New System.Drawing.Point(778, 333)
-        Me.Env_Fan_Off.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Env_Fan_Off.Location = New System.Drawing.Point(681, 250)
         Me.Env_Fan_Off.Name = "Env_Fan_Off"
-        Me.Env_Fan_Off.Size = New System.Drawing.Size(86, 100)
+        Me.Env_Fan_Off.Size = New System.Drawing.Size(75, 75)
         Me.Env_Fan_Off.TabIndex = 15
         Me.Env_Fan_Off.Text = "Fan Off"
         Me.Env_Fan_Off.UseVisualStyleBackColor = True
@@ -219,37 +203,36 @@ Partial Class Environment
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(114, 296)
+        Me.Label1.Location = New System.Drawing.Point(100, 222)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 20)
+        Me.Label1.Size = New System.Drawing.Size(67, 15)
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "Temperture"
         '
         'Temperture_Display
         '
         Me.Temperture_Display.AutoSize = True
-        Me.Temperture_Display.Location = New System.Drawing.Point(220, 296)
+        Me.Temperture_Display.Location = New System.Drawing.Point(192, 222)
         Me.Temperture_Display.Name = "Temperture_Display"
-        Me.Temperture_Display.Size = New System.Drawing.Size(34, 20)
+        Me.Temperture_Display.Size = New System.Drawing.Size(19, 15)
         Me.Temperture_Display.TabIndex = 17
-        Me.Temperture_Display.Text = "24C"
+        Me.Temperture_Display.Text = "24"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(458, 296)
+        Me.Label3.Location = New System.Drawing.Point(401, 222)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(70, 20)
+        Me.Label3.Size = New System.Drawing.Size(57, 15)
         Me.Label3.TabIndex = 18
         Me.Label3.Text = "Humidity"
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(754, 457)
-        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Location = New System.Drawing.Point(660, 343)
         Me.Close.Name = "Close"
         Me.Close.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 20
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
@@ -261,11 +244,11 @@ Partial Class Environment
         '
         'Environment
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Temperture_Display)
@@ -286,7 +269,6 @@ Partial Class Environment
         Me.Controls.Add(Me.Env_Living)
         Me.Controls.Add(Me.Env_Bedroom)
         Me.Controls.Add(Me.Env_Apartment)
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Environment"
         Me.Text = "Environment"
         Me.ResumeLayout(False)
@@ -370,9 +352,60 @@ Partial Class Environment
 
     Private Sub Environment_KeyPress(sender As Object, e As KeyPressEventArgs) Handles MyBase.KeyPress
         If e.KeyChar = " " Then
-            If Me.selectionSequence(selectionIndex).Name = "Close" Then
-                ActiveForm.Close()
-            End If
+            Dim currentSelection As Object = selectionSequence(selectionIndex)
+            ' Open the appropriate window based on the current selection
+            Select Case currentSelection.Name
+                Case Me.Close.Name
+                    ActiveForm.Close()
+                Case Me.Env_Apartment.Name
+                    Env_Bedroom.Checked = False
+                    Env_Kitchen.Checked = False
+                    Env_Living.Checked = False
+                    Env_Apartment.Checked = True
+                Case Me.Env_Bedroom.Name
+                    Env_Bedroom.Checked = True
+                    Env_Kitchen.Checked = False
+                    Env_Living.Checked = False
+                    Env_Apartment.Checked = False
+                Case Me.Env_Kitchen.Name
+                    Env_Kitchen.Checked = True
+                    Env_Living.Checked = False
+                    Env_Bedroom.Checked = False
+                    Env_Apartment.Checked = False
+                Case Me.Env_Living.Name
+                    Env_Living.Checked = True
+                    Env_Bedroom.Checked = False
+                    Env_Kitchen.Checked = False
+                    Env_Apartment.Checked = False
+                Case Me.Env_Light_On.Name
+                    MsgBox("The lights are now on.")
+                Case Me.Env_Lights_Off.Name
+                    MsgBox("The lights are now off.")
+                Case Me.Env_Win_Close.Name
+                    MsgBox("The windows are noe closed.")
+                Case Me.Env_Win_Open.Name
+                    MsgBox("The windows are noe opened.")
+                Case Me.Env_Blinds_Open.Name
+                    MsgBox("The blinds are noe opened.")
+                Case Me.Env_Blinds_Close.Name
+                    MsgBox("The blinds are noe Closed.")
+                Case Me.Env_Fan_On.Name
+                    MsgBox("The fan is now On.")
+                Case Me.Env_Fan_Off.Name
+                    MsgBox("The fan is now off.")
+                Case Me.Env_Humid_Up.Name
+                    MsgBox("You increase the set humidity.")
+                Case Me.Env_Humid_Down.Name
+                    MsgBox("You decreased the set humidity.")
+                Case Me.Env_Temp_Up.Name
+                    Dim temp As Integer = Temperture_Display.Text
+                    temp = temp + 1
+                    Temperture_Display.Text = temp
+                Case Me.Env_Temp_Down.Name
+                    Dim temp As Integer = Temperture_Display.Text
+                    temp = temp - 1
+                    Temperture_Display.Text = temp
+            End Select
         End If
     End Sub
 
