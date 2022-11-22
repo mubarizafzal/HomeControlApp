@@ -22,59 +22,60 @@ Partial Class Elevator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Elevator))
         Me.CallElevator = New System.Windows.Forms.Button()
         Me.SelectFloor = New System.Windows.Forms.Button()
-        Me.Ele_back = New System.Windows.Forms.Button()
-        Me.Ele_Home = New System.Windows.Forms.Button()
+        Me.Close = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'CallElevator
         '
-        Me.CallElevator.Location = New System.Drawing.Point(329, 278)
+        Me.CallElevator.Location = New System.Drawing.Point(350, 251)
+        Me.CallElevator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.CallElevator.Name = "CallElevator"
-        Me.CallElevator.Size = New System.Drawing.Size(75, 75)
+        Me.CallElevator.Size = New System.Drawing.Size(110, 110)
         Me.CallElevator.TabIndex = 0
         Me.CallElevator.Text = "Call Elevator"
         Me.CallElevator.UseVisualStyleBackColor = True
         '
         'SelectFloor
         '
-        Me.SelectFloor.Location = New System.Drawing.Point(546, 278)
+        Me.SelectFloor.Location = New System.Drawing.Point(527, 251)
+        Me.SelectFloor.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.SelectFloor.Name = "SelectFloor"
-        Me.SelectFloor.Size = New System.Drawing.Size(75, 75)
+        Me.SelectFloor.Size = New System.Drawing.Size(110, 110)
         Me.SelectFloor.TabIndex = 1
         Me.SelectFloor.Text = "Select Floor"
         Me.SelectFloor.UseVisualStyleBackColor = True
         '
-        'Ele_back
+        'Close
         '
-        Me.Ele_back.Location = New System.Drawing.Point(97, 501)
-        Me.Ele_back.Name = "Ele_back"
-        Me.Ele_back.Size = New System.Drawing.Size(75, 75)
-        Me.Ele_back.TabIndex = 2
-        Me.Ele_back.Text = "Back"
-        Me.Ele_back.UseVisualStyleBackColor = True
+        Me.Close.Location = New System.Drawing.Point(735, 440)
+        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Name = "Close"
+        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.TabIndex = 3
+        Me.Close.Text = "Close"
+        Me.Close.UseVisualStyleBackColor = True
         '
-        'Ele_Home
+        'Timer1
         '
-        Me.Ele_Home.Location = New System.Drawing.Point(798, 501)
-        Me.Ele_Home.Name = "Ele_Home"
-        Me.Ele_Home.Size = New System.Drawing.Size(75, 75)
-        Me.Ele_Home.TabIndex = 3
-        Me.Ele_Home.Text = "Home"
-        Me.Ele_Home.UseVisualStyleBackColor = True
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
         '
         'Elevator
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(968, 671)
-        Me.Controls.Add(Me.Ele_Home)
-        Me.Controls.Add(Me.Ele_back)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.SelectFloor)
         Me.Controls.Add(Me.CallElevator)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Elevator"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Elevator"
@@ -84,6 +85,6 @@ Partial Class Elevator
 
     Friend WithEvents CallElevator As Button
     Friend WithEvents SelectFloor As Button
-    Friend WithEvents Ele_back As Button
-    Friend WithEvents Ele_Home As Button
+    Friend WithEvents Close As Button
+    Friend WithEvents Timer1 As Timer
 End Class
