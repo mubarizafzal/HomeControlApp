@@ -55,6 +55,24 @@
         If e.KeyChar = " " Then
             If Me.selectionSequence(selectionIndex).Name = "Close" Then
                 ActiveForm.Close()
+            ElseIf Me.selectionSequence(selectionIndex).Name = "TV_On" Then
+                MsgBox("The TV is now on.")
+            ElseIf Me.selectionSequence(selectionIndex).Name = "TV_Off" Then
+                MsgBox("The TV is now off.")
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Channel_Up" Then
+                MsgBox("You have changed channels.")
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Channel_Down" Then
+                MsgBox("You have changed channels.")
+            ElseIf Me.selectionSequence(selectionIndex).Name = "TV_Select" Then
+                MsgBox("You have selected the show.")
+            ElseIf Me.selectionSequence(selectionIndex).Name = "TV_Vol_Up" Then
+                Dim volume As Integer = Tv_VolumeValue.Text
+                volume = volume + 1
+                Tv_VolumeValue.Text = volume
+            ElseIf Me.selectionSequence(selectionIndex).Name = "TV_Vol_Down" Then
+                Dim volume As Integer = Tv_VolumeValue.Text
+                volume = volume - 1
+                Tv_VolumeValue.Text = volume
             End If
         End If
     End Sub
