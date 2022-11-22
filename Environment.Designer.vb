@@ -408,6 +408,13 @@ Partial Class Environment
                     Temperture_Display.Text = temp
             End Select
         End If
+        If e.KeyChar = "1" Then
+            Dim NewWindow As New PhoneCall()
+            NewWindow.Show()
+        End If
+        If e.KeyChar = "2" Then
+            MsgBox("Your doorbell has been rung!")
+        End If
     End Sub
 
     Private Sub Environment_Paint(sender As Object, e As PaintEventArgs) Handles MyBase.Paint

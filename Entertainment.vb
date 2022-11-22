@@ -46,6 +46,13 @@
                 NewWindow.Show()
             End If
         End If
+        If e.KeyChar = "1" Then
+            Dim NewWindow As New PhoneCall()
+            NewWindow.Show()
+        End If
+        If e.KeyChar = "2" Then
+            MsgBox("Your doorbell has been rung!")
+        End If
     End Sub
 
     Private Sub Ent_Radio_Click(sender As Object, e As EventArgs) Handles Ent_Radio.Click
