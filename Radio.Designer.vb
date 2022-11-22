@@ -162,6 +162,7 @@ Partial Class Radio
         Me.Controls.Add(Me.Radio_On)
         Me.DoubleBuffered = True
         Me.Name = "Radio"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Radio"
         Me.ResumeLayout(False)
         Me.PerformLayout()

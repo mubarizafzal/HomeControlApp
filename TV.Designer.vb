@@ -195,6 +195,7 @@ Partial Class TV
         Me.Controls.Add(Me.TV_On)
         Me.DoubleBuffered = True
         Me.Name = "TV"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "TV"
         Me.ResumeLayout(False)
         Me.PerformLayout()
