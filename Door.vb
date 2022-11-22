@@ -47,6 +47,32 @@
             If Me.selectionSequence(selectionIndex).Name = "Close" Then
                 ActiveForm.Close()
             End If
+            Dim currentSelection As Object = selectionSequence(selectionIndex)
+            ' Open the appropriate window based on the current selection
+            Select Case currentSelection.Name
+                Case Me.Close.Name
+                    ActiveForm.Close()
+                Case Me.Apartment_Door.Name
+                    Apartment_Door.Checked = True
+                    Hallway_Door.Checked = False
+                    Building_Door.Checked = False
+                Case Me.Hallway_Door.Name
+                    Hallway_Door.Checked = True
+                    Building_Door.Checked = False
+                    Apartment_Door.Checked = False
+                Case Me.Building_Door.Name
+                    Building_Door.Checked = True
+                    Hallway_Door.Checked = False
+                    Apartment_Door.Checked = False
+                Case Me.Door_Lock.Name
+                    MsgBox("The Door has been locked.")
+                Case Me.Door_Unlock.Name
+                    MsgBox("The Door has been unlocked.")
+                Case Me.Door_Open.Name
+                    MsgBox("The Door has been opened.")
+                Case Me.Door_Close.Name
+                    MsgBox("The Door has been closed.")
+            End Select
         End If
     End Sub
     Private Sub Apartment_Door_Click(sender As Object, e As EventArgs) Handles Apartment_Door.Click
@@ -63,5 +89,21 @@
     Private Sub Hallway_Door_Click(sender As Object, e As EventArgs) Handles Hallway_Door.Click
         Building_Door.Checked = False
         Apartment_Door.Checked = False
+    End Sub
+
+    Private Sub Door_Lock_Click(sender As Object, e As EventArgs) Handles Door_Lock.Click
+        MsgBox("The Door has been locked")
+    End Sub
+
+    Private Sub Door_Unlock_Click(sender As Object, e As EventArgs) Handles Door_Unlock.Click
+        MsgBox("The Door has been unlocked")
+    End Sub
+
+    Private Sub Door_Open_Click(sender As Object, e As EventArgs) Handles Door_Open.Click
+        MsgBox("The Door has been opened.")
+    End Sub
+
+    Private Sub Door_Close_Click(sender As Object, e As EventArgs) Handles Door_Close.Click
+        MsgBox("The Door has been closed.")
     End Sub
 End Class

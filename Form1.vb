@@ -78,12 +78,6 @@ Public Class Form1
         Me.Invalidate()
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        selectionIndex = (selectionIndex + 1) Mod selectionSequence.Length
-        Me.Invalidate()
-    End Sub
-
-
     Private Sub Elevator_Click(sender As Object, e As EventArgs) Handles Elevator.Click
         Dim NewWindow As New Elevator()
         NewWindow.Show()
