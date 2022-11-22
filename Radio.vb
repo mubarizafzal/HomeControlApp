@@ -39,6 +39,26 @@
         If e.KeyChar = " " Then
             If Me.selectionSequence(selectionIndex).Name = "Close" Then
                 ActiveForm.Close()
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Radio_On" Then
+                MsgBox("The radio is now on")
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Radio_Off" Then
+                MsgBox("The radio is now off")
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Radio_Vol_Up" Then
+                Dim volume As Integer = Radio_Vol.Text
+                volume = volume + 1
+                Radio_Vol.Text = volume
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Radio_Vol_Down" Then
+                Dim volume As Integer = Radio_Vol.Text
+                volume = volume - 1
+                Radio_Vol.Text = volume
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Radio_Chan_Up" Then
+                Dim channel As Decimal = Radio_Chan.Text
+                channel = channel + 0.1
+                Radio_Chan.Text = channel
+            ElseIf Me.selectionSequence(selectionIndex).Name = "Radio_Chan_Down" Then
+                Dim channel As Decimal = Radio_Chan.Text
+                channel = channel - 0.1
+                Radio_Chan.Text = channel
             End If
         End If
     End Sub
