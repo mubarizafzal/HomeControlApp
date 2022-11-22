@@ -33,40 +33,36 @@ Partial Class SelectFloor
         '
         'Ele_Floor1
         '
-        Me.Ele_Floor1.Location = New System.Drawing.Point(235, 163)
-        Me.Ele_Floor1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Ele_Floor1.Location = New System.Drawing.Point(265, 191)
         Me.Ele_Floor1.Name = "Ele_Floor1"
-        Me.Ele_Floor1.Size = New System.Drawing.Size(86, 100)
+        Me.Ele_Floor1.Size = New System.Drawing.Size(75, 75)
         Me.Ele_Floor1.TabIndex = 0
         Me.Ele_Floor1.Text = "Floor 1"
         Me.Ele_Floor1.UseVisualStyleBackColor = True
         '
         'Ele_Floor2
         '
-        Me.Ele_Floor2.Location = New System.Drawing.Point(446, 163)
-        Me.Ele_Floor2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Ele_Floor2.Location = New System.Drawing.Point(449, 191)
         Me.Ele_Floor2.Name = "Ele_Floor2"
-        Me.Ele_Floor2.Size = New System.Drawing.Size(86, 100)
+        Me.Ele_Floor2.Size = New System.Drawing.Size(75, 75)
         Me.Ele_Floor2.TabIndex = 1
         Me.Ele_Floor2.Text = "Floor 2"
         Me.Ele_Floor2.UseVisualStyleBackColor = True
         '
         'Ele_Floor3
         '
-        Me.Ele_Floor3.Location = New System.Drawing.Point(644, 163)
-        Me.Ele_Floor3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Ele_Floor3.Location = New System.Drawing.Point(623, 191)
         Me.Ele_Floor3.Name = "Ele_Floor3"
-        Me.Ele_Floor3.Size = New System.Drawing.Size(86, 100)
+        Me.Ele_Floor3.Size = New System.Drawing.Size(75, 75)
         Me.Ele_Floor3.TabIndex = 2
         Me.Ele_Floor3.Text = "Floor 3"
         Me.Ele_Floor3.UseVisualStyleBackColor = True
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(742, 451)
-        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Location = New System.Drawing.Point(772, 492)
         Me.Close.Name = "Close"
-        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 4
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
@@ -78,16 +74,15 @@ Partial Class SelectFloor
         '
         'SelectFloor
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(1106, 895)
+        Me.ClientSize = New System.Drawing.Size(968, 671)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Ele_Floor3)
         Me.Controls.Add(Me.Ele_Floor2)
         Me.Controls.Add(Me.Ele_Floor1)
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "SelectFloor"
         Me.Text = "SelectFloor"
         Me.ResumeLayout(False)

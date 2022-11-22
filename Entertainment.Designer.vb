@@ -33,20 +33,18 @@ Partial Class Entertainment
         '
         'Ent_TV
         '
-        Me.Ent_TV.Location = New System.Drawing.Point(249, 135)
-        Me.Ent_TV.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Ent_TV.Location = New System.Drawing.Point(218, 101)
         Me.Ent_TV.Name = "Ent_TV"
-        Me.Ent_TV.Size = New System.Drawing.Size(86, 100)
+        Me.Ent_TV.Size = New System.Drawing.Size(75, 75)
         Me.Ent_TV.TabIndex = 0
         Me.Ent_TV.Text = "TV"
         Me.Ent_TV.UseVisualStyleBackColor = True
         '
         'Ent_Radio
         '
-        Me.Ent_Radio.Location = New System.Drawing.Point(447, 135)
-        Me.Ent_Radio.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Ent_Radio.Location = New System.Drawing.Point(391, 101)
         Me.Ent_Radio.Name = "Ent_Radio"
-        Me.Ent_Radio.Size = New System.Drawing.Size(86, 100)
+        Me.Ent_Radio.Size = New System.Drawing.Size(75, 75)
         Me.Ent_Radio.TabIndex = 1
         Me.Ent_Radio.Text = "Radio"
         Me.Ent_Radio.UseVisualStyleBackColor = True
@@ -54,20 +52,18 @@ Partial Class Entertainment
         'Ent_Games
         '
         Me.Ent_Games.Enabled = False
-        Me.Ent_Games.Location = New System.Drawing.Point(638, 135)
-        Me.Ent_Games.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Ent_Games.Location = New System.Drawing.Point(558, 101)
         Me.Ent_Games.Name = "Ent_Games"
-        Me.Ent_Games.Size = New System.Drawing.Size(86, 100)
+        Me.Ent_Games.Size = New System.Drawing.Size(75, 75)
         Me.Ent_Games.TabIndex = 2
         Me.Ent_Games.Text = "Games"
         Me.Ent_Games.UseVisualStyleBackColor = True
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(749, 449)
-        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Location = New System.Drawing.Point(677, 384)
         Me.Close.Name = "Close"
-        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 4
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
@@ -79,16 +75,16 @@ Partial Class Entertainment
         '
         'Entertainment
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Ent_Games)
         Me.Controls.Add(Me.Ent_Radio)
         Me.Controls.Add(Me.Ent_TV)
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.DoubleBuffered = True
         Me.Name = "Entertainment"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Entertainment"
