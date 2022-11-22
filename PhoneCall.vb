@@ -33,7 +33,7 @@
                 MsgBox("You picked up the call.")
                 ActiveForm.Close()
             ElseIf Me.selectionSequence(selectionIndex).Name = "Decline" Then
-                MsgBox("You declined teh call")
+                MsgBox("You declined the call")
                 ActiveForm.Close()
             End If
         End If
