@@ -57,4 +57,8 @@
         Dim NewWindow As New TV()
         NewWindow.Show()
     End Sub
+
+    Private Sub Close_Click(sender As Object, e As EventArgs) Handles Close.Click
+        ActiveForm.Close()
+    End Sub
 End Class
