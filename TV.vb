@@ -46,7 +46,7 @@
         End If
     End Sub
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs)
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Me.selectionIndex = (selectionIndex + 1) Mod selectionSequence.Length
         Me.Invalidate()
     End Sub
