@@ -50,7 +50,7 @@ Partial Class Elevator
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(643, 330)
+        Me.Close.Location = New System.Drawing.Point(677, 391)
         Me.Close.Name = "Close"
         Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 3
@@ -67,11 +67,12 @@ Partial Class Elevator
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.SelectFloor)
         Me.Controls.Add(Me.CallElevator)
+        Me.DoubleBuffered = True
         Me.Name = "Elevator"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Elevator"

@@ -51,7 +51,7 @@ Partial Class Environment
         '
         Me.Env_Apartment.AutoSize = True
         Me.Env_Apartment.Checked = True
-        Me.Env_Apartment.Location = New System.Drawing.Point(158, 79)
+        Me.Env_Apartment.Location = New System.Drawing.Point(168, 93)
         Me.Env_Apartment.Name = "Env_Apartment"
         Me.Env_Apartment.Size = New System.Drawing.Size(82, 19)
         Me.Env_Apartment.TabIndex = 0
@@ -62,7 +62,7 @@ Partial Class Environment
         'Env_Bedroom
         '
         Me.Env_Bedroom.AutoSize = True
-        Me.Env_Bedroom.Location = New System.Drawing.Point(315, 79)
+        Me.Env_Bedroom.Location = New System.Drawing.Point(325, 93)
         Me.Env_Bedroom.Name = "Env_Bedroom"
         Me.Env_Bedroom.Size = New System.Drawing.Size(74, 19)
         Me.Env_Bedroom.TabIndex = 1
@@ -73,7 +73,7 @@ Partial Class Environment
         'Env_Living
         '
         Me.Env_Living.AutoSize = True
-        Me.Env_Living.Location = New System.Drawing.Point(484, 79)
+        Me.Env_Living.Location = New System.Drawing.Point(494, 93)
         Me.Env_Living.Name = "Env_Living"
         Me.Env_Living.Size = New System.Drawing.Size(57, 19)
         Me.Env_Living.TabIndex = 2
@@ -84,7 +84,7 @@ Partial Class Environment
         'Env_Kitchen
         '
         Me.Env_Kitchen.AutoSize = True
-        Me.Env_Kitchen.Location = New System.Drawing.Point(619, 79)
+        Me.Env_Kitchen.Location = New System.Drawing.Point(629, 93)
         Me.Env_Kitchen.Name = "Env_Kitchen"
         Me.Env_Kitchen.Size = New System.Drawing.Size(65, 19)
         Me.Env_Kitchen.TabIndex = 3
@@ -94,7 +94,7 @@ Partial Class Environment
         '
         'Env_Light_On
         '
-        Me.Env_Light_On.Location = New System.Drawing.Point(92, 130)
+        Me.Env_Light_On.Location = New System.Drawing.Point(102, 144)
         Me.Env_Light_On.Name = "Env_Light_On"
         Me.Env_Light_On.Size = New System.Drawing.Size(75, 75)
         Me.Env_Light_On.TabIndex = 4
@@ -103,7 +103,7 @@ Partial Class Environment
         '
         'Env_Lights_Off
         '
-        Me.Env_Lights_Off.Location = New System.Drawing.Point(172, 130)
+        Me.Env_Lights_Off.Location = New System.Drawing.Point(182, 144)
         Me.Env_Lights_Off.Name = "Env_Lights_Off"
         Me.Env_Lights_Off.Size = New System.Drawing.Size(75, 75)
         Me.Env_Lights_Off.TabIndex = 5
@@ -112,7 +112,7 @@ Partial Class Environment
         '
         'Env_Win_Open
         '
-        Me.Env_Win_Open.Location = New System.Drawing.Point(352, 130)
+        Me.Env_Win_Open.Location = New System.Drawing.Point(362, 144)
         Me.Env_Win_Open.Name = "Env_Win_Open"
         Me.Env_Win_Open.Size = New System.Drawing.Size(75, 75)
         Me.Env_Win_Open.TabIndex = 6
@@ -121,7 +121,7 @@ Partial Class Environment
         '
         'Env_Win_Close
         '
-        Me.Env_Win_Close.Location = New System.Drawing.Point(432, 130)
+        Me.Env_Win_Close.Location = New System.Drawing.Point(442, 144)
         Me.Env_Win_Close.Name = "Env_Win_Close"
         Me.Env_Win_Close.Size = New System.Drawing.Size(75, 75)
         Me.Env_Win_Close.TabIndex = 7
@@ -130,7 +130,7 @@ Partial Class Environment
         '
         'Env_Blinds_Open
         '
-        Me.Env_Blinds_Open.Location = New System.Drawing.Point(600, 130)
+        Me.Env_Blinds_Open.Location = New System.Drawing.Point(610, 144)
         Me.Env_Blinds_Open.Name = "Env_Blinds_Open"
         Me.Env_Blinds_Open.Size = New System.Drawing.Size(75, 75)
         Me.Env_Blinds_Open.TabIndex = 8
@@ -139,7 +139,7 @@ Partial Class Environment
         '
         'Env_Blinds_Close
         '
-        Me.Env_Blinds_Close.Location = New System.Drawing.Point(681, 130)
+        Me.Env_Blinds_Close.Location = New System.Drawing.Point(691, 144)
         Me.Env_Blinds_Close.Name = "Env_Blinds_Close"
         Me.Env_Blinds_Close.Size = New System.Drawing.Size(75, 75)
         Me.Env_Blinds_Close.TabIndex = 9
@@ -148,7 +148,7 @@ Partial Class Environment
         '
         'Env_Temp_Up
         '
-        Me.Env_Temp_Up.Location = New System.Drawing.Point(92, 250)
+        Me.Env_Temp_Up.Location = New System.Drawing.Point(102, 264)
         Me.Env_Temp_Up.Name = "Env_Temp_Up"
         Me.Env_Temp_Up.Size = New System.Drawing.Size(75, 75)
         Me.Env_Temp_Up.TabIndex = 10
@@ -157,7 +157,7 @@ Partial Class Environment
         '
         'Env_Temp_Down
         '
-        Me.Env_Temp_Down.Location = New System.Drawing.Point(172, 250)
+        Me.Env_Temp_Down.Location = New System.Drawing.Point(182, 264)
         Me.Env_Temp_Down.Name = "Env_Temp_Down"
         Me.Env_Temp_Down.Size = New System.Drawing.Size(75, 75)
         Me.Env_Temp_Down.TabIndex = 11
@@ -166,7 +166,7 @@ Partial Class Environment
         '
         'Env_Humid_Up
         '
-        Me.Env_Humid_Up.Location = New System.Drawing.Point(352, 250)
+        Me.Env_Humid_Up.Location = New System.Drawing.Point(362, 264)
         Me.Env_Humid_Up.Name = "Env_Humid_Up"
         Me.Env_Humid_Up.Size = New System.Drawing.Size(75, 75)
         Me.Env_Humid_Up.TabIndex = 12
@@ -175,7 +175,7 @@ Partial Class Environment
         '
         'Env_Humid_Down
         '
-        Me.Env_Humid_Down.Location = New System.Drawing.Point(432, 250)
+        Me.Env_Humid_Down.Location = New System.Drawing.Point(442, 264)
         Me.Env_Humid_Down.Name = "Env_Humid_Down"
         Me.Env_Humid_Down.Size = New System.Drawing.Size(75, 75)
         Me.Env_Humid_Down.TabIndex = 13
@@ -184,7 +184,7 @@ Partial Class Environment
         '
         'Env_Fan_On
         '
-        Me.Env_Fan_On.Location = New System.Drawing.Point(600, 250)
+        Me.Env_Fan_On.Location = New System.Drawing.Point(610, 264)
         Me.Env_Fan_On.Name = "Env_Fan_On"
         Me.Env_Fan_On.Size = New System.Drawing.Size(75, 75)
         Me.Env_Fan_On.TabIndex = 14
@@ -193,7 +193,7 @@ Partial Class Environment
         '
         'Env_Fan_Off
         '
-        Me.Env_Fan_Off.Location = New System.Drawing.Point(681, 250)
+        Me.Env_Fan_Off.Location = New System.Drawing.Point(691, 264)
         Me.Env_Fan_Off.Name = "Env_Fan_Off"
         Me.Env_Fan_Off.Size = New System.Drawing.Size(75, 75)
         Me.Env_Fan_Off.TabIndex = 15
@@ -203,7 +203,7 @@ Partial Class Environment
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(100, 222)
+        Me.Label1.Location = New System.Drawing.Point(110, 236)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(67, 15)
         Me.Label1.TabIndex = 16
@@ -212,7 +212,7 @@ Partial Class Environment
         'Temperture_Display
         '
         Me.Temperture_Display.AutoSize = True
-        Me.Temperture_Display.Location = New System.Drawing.Point(192, 222)
+        Me.Temperture_Display.Location = New System.Drawing.Point(202, 236)
         Me.Temperture_Display.Name = "Temperture_Display"
         Me.Temperture_Display.Size = New System.Drawing.Size(19, 15)
         Me.Temperture_Display.TabIndex = 17
@@ -221,7 +221,7 @@ Partial Class Environment
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(401, 222)
+        Me.Label3.Location = New System.Drawing.Point(411, 236)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(57, 15)
         Me.Label3.TabIndex = 18
@@ -229,7 +229,7 @@ Partial Class Environment
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(660, 343)
+        Me.Close.Location = New System.Drawing.Point(681, 393)
         Me.Close.Name = "Close"
         Me.Close.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Close.Size = New System.Drawing.Size(96, 82)
@@ -247,7 +247,7 @@ Partial Class Environment
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Label3)
@@ -269,6 +269,7 @@ Partial Class Environment
         Me.Controls.Add(Me.Env_Living)
         Me.Controls.Add(Me.Env_Bedroom)
         Me.Controls.Add(Me.Env_Apartment)
+        Me.DoubleBuffered = True
         Me.Name = "Environment"
         Me.Text = "Environment"
         Me.ResumeLayout(False)

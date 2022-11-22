@@ -37,50 +37,45 @@ Partial Class Door
         '
         'Door_Lock
         '
-        Me.Door_Lock.Location = New System.Drawing.Point(371, 238)
-        Me.Door_Lock.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Door_Lock.Location = New System.Drawing.Point(325, 178)
         Me.Door_Lock.Name = "Door_Lock"
-        Me.Door_Lock.Size = New System.Drawing.Size(90, 90)
+        Me.Door_Lock.Size = New System.Drawing.Size(79, 68)
         Me.Door_Lock.TabIndex = 3
         Me.Door_Lock.Text = "Lock"
         Me.Door_Lock.UseVisualStyleBackColor = True
         '
         'Door_Close
         '
-        Me.Door_Close.Location = New System.Drawing.Point(483, 346)
-        Me.Door_Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Door_Close.Location = New System.Drawing.Point(423, 260)
         Me.Door_Close.Name = "Door_Close"
-        Me.Door_Close.Size = New System.Drawing.Size(90, 90)
+        Me.Door_Close.Size = New System.Drawing.Size(79, 68)
         Me.Door_Close.TabIndex = 4
         Me.Door_Close.Text = "Close"
         Me.Door_Close.UseVisualStyleBackColor = True
         '
         'Door_Unlock
         '
-        Me.Door_Unlock.Location = New System.Drawing.Point(483, 238)
-        Me.Door_Unlock.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Door_Unlock.Location = New System.Drawing.Point(423, 178)
         Me.Door_Unlock.Name = "Door_Unlock"
-        Me.Door_Unlock.Size = New System.Drawing.Size(90, 90)
+        Me.Door_Unlock.Size = New System.Drawing.Size(79, 68)
         Me.Door_Unlock.TabIndex = 5
         Me.Door_Unlock.Text = "Unlock"
         Me.Door_Unlock.UseVisualStyleBackColor = True
         '
         'Door_Open
         '
-        Me.Door_Open.Location = New System.Drawing.Point(371, 346)
-        Me.Door_Open.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Door_Open.Location = New System.Drawing.Point(325, 260)
         Me.Door_Open.Name = "Door_Open"
-        Me.Door_Open.Size = New System.Drawing.Size(90, 90)
+        Me.Door_Open.Size = New System.Drawing.Size(79, 68)
         Me.Door_Open.TabIndex = 6
         Me.Door_Open.Text = "Open"
         Me.Door_Open.UseVisualStyleBackColor = True
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(749, 460)
-        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Location = New System.Drawing.Point(674, 385)
         Me.Close.Name = "Close"
-        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 8
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
@@ -88,10 +83,9 @@ Partial Class Door
         'Building_Door
         '
         Me.Building_Door.AutoSize = True
-        Me.Building_Door.Location = New System.Drawing.Point(142, 146)
-        Me.Building_Door.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Building_Door.Location = New System.Drawing.Point(124, 110)
         Me.Building_Door.Name = "Building_Door"
-        Me.Building_Door.Size = New System.Drawing.Size(161, 24)
+        Me.Building_Door.Size = New System.Drawing.Size(129, 19)
         Me.Building_Door.TabIndex = 9
         Me.Building_Door.Text = "Building Front Door"
         Me.Building_Door.UseVisualStyleBackColor = True
@@ -99,10 +93,9 @@ Partial Class Door
         'Apartment_Door
         '
         Me.Apartment_Door.AutoSize = True
-        Me.Apartment_Door.Location = New System.Drawing.Point(418, 146)
-        Me.Apartment_Door.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Apartment_Door.Location = New System.Drawing.Point(366, 110)
         Me.Apartment_Door.Name = "Apartment_Door"
-        Me.Apartment_Door.Size = New System.Drawing.Size(139, 24)
+        Me.Apartment_Door.Size = New System.Drawing.Size(111, 19)
         Me.Apartment_Door.TabIndex = 10
         Me.Apartment_Door.Text = "Apartment Door"
         Me.Apartment_Door.UseVisualStyleBackColor = True
@@ -110,10 +103,9 @@ Partial Class Door
         'Hallway_Door
         '
         Me.Hallway_Door.AutoSize = True
-        Me.Hallway_Door.Location = New System.Drawing.Point(691, 146)
-        Me.Hallway_Door.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Hallway_Door.Location = New System.Drawing.Point(605, 110)
         Me.Hallway_Door.Name = "Hallway_Door"
-        Me.Hallway_Door.Size = New System.Drawing.Size(121, 24)
+        Me.Hallway_Door.Size = New System.Drawing.Size(96, 19)
         Me.Hallway_Door.TabIndex = 11
         Me.Hallway_Door.Text = "Hallway Door"
         Me.Hallway_Door.UseVisualStyleBackColor = True
@@ -125,11 +117,11 @@ Partial Class Door
         '
         'Door
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Hallway_Door)
         Me.Controls.Add(Me.Apartment_Door)
         Me.Controls.Add(Me.Building_Door)
@@ -138,7 +130,7 @@ Partial Class Door
         Me.Controls.Add(Me.Door_Unlock)
         Me.Controls.Add(Me.Door_Close)
         Me.Controls.Add(Me.Door_Lock)
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.DoubleBuffered = True
         Me.Name = "Door"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Door"

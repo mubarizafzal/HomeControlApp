@@ -34,30 +34,27 @@ Partial Class Assistance
         '
         'Assist_Confirm
         '
-        Me.Assist_Confirm.Location = New System.Drawing.Point(130, 450)
-        Me.Assist_Confirm.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Assist_Confirm.Location = New System.Drawing.Point(133, 385)
         Me.Assist_Confirm.Name = "Assist_Confirm"
-        Me.Assist_Confirm.Size = New System.Drawing.Size(110, 110)
+        Me.Assist_Confirm.Size = New System.Drawing.Size(96, 82)
         Me.Assist_Confirm.TabIndex = 0
         Me.Assist_Confirm.Text = "Confrim Arrival of Assistance"
         Me.Assist_Confirm.UseVisualStyleBackColor = True
         '
         'Assist_Again
         '
-        Me.Assist_Again.Location = New System.Drawing.Point(304, 450)
-        Me.Assist_Again.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Assist_Again.Location = New System.Drawing.Point(285, 385)
         Me.Assist_Again.Name = "Assist_Again"
-        Me.Assist_Again.Size = New System.Drawing.Size(110, 110)
+        Me.Assist_Again.Size = New System.Drawing.Size(96, 82)
         Me.Assist_Again.TabIndex = 1
         Me.Assist_Again.Text = "Request For Assistance Again"
         Me.Assist_Again.UseVisualStyleBackColor = True
         '
         'Cancel
         '
-        Me.Cancel.Location = New System.Drawing.Point(473, 450)
-        Me.Cancel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Cancel.Location = New System.Drawing.Point(433, 385)
         Me.Cancel.Name = "Cancel"
-        Me.Cancel.Size = New System.Drawing.Size(110, 110)
+        Me.Cancel.Size = New System.Drawing.Size(96, 82)
         Me.Cancel.TabIndex = 2
         Me.Cancel.Text = "Cancel"
         Me.Cancel.UseVisualStyleBackColor = True
@@ -66,18 +63,17 @@ Partial Class Assistance
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(234, 248)
+        Me.Label1.Location = New System.Drawing.Point(205, 186)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(506, 31)
+        Me.Label1.Size = New System.Drawing.Size(416, 25)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Your Request of Assistance was sucessfully sent. "
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(739, 450)
-        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Location = New System.Drawing.Point(666, 385)
         Me.Close.Name = "Close"
-        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 4
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
@@ -89,17 +85,17 @@ Partial Class Assistance
         '
         'Assistance
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Cancel)
         Me.Controls.Add(Me.Assist_Again)
         Me.Controls.Add(Me.Assist_Confirm)
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.DoubleBuffered = True
         Me.Name = "Assistance"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Assistance"
