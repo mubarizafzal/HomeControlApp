@@ -49,4 +49,19 @@
             End If
         End If
     End Sub
+    Private Sub Apartment_Door_Click(sender As Object, e As EventArgs) Handles Apartment_Door.Click
+        Hallway_Door.Checked = False
+        Building_Door.Checked = False
+    End Sub
+
+    Private Sub Building_Door_Click(sender As Object, e As EventArgs) Handles Building_Door.Click
+        Hallway_Door.Checked = False
+        Apartment_Door.Checked = False
+
+    End Sub
+
+    Private Sub Hallway_Door_Click(sender As Object, e As EventArgs) Handles Hallway_Door.Click
+        Building_Door.Checked = False
+        Apartment_Door.Checked = False
+    End Sub
 End Class
