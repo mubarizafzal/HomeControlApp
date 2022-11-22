@@ -22,91 +22,94 @@ Partial Class Movement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Movement))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Forward = New System.Windows.Forms.Button()
+        Me.Reverse = New System.Windows.Forms.Button()
+        Me.Right = New System.Windows.Forms.Button()
+        Me.Left = New System.Windows.Forms.Button()
+        Me.Close = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
-        'Button1
+        'Forward
         '
-        Me.Button1.Location = New System.Drawing.Point(448, 155)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 75)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Forward"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Forward.Location = New System.Drawing.Point(430, 130)
+        Me.Forward.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Forward.Name = "Forward"
+        Me.Forward.Size = New System.Drawing.Size(110, 110)
+        Me.Forward.TabIndex = 0
+        Me.Forward.Text = "Forward"
+        Me.Forward.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Reverse
         '
-        Me.Button2.Location = New System.Drawing.Point(448, 393)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 75)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Reverse"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Reverse.Location = New System.Drawing.Point(430, 330)
+        Me.Reverse.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Reverse.Name = "Reverse"
+        Me.Reverse.Size = New System.Drawing.Size(110, 110)
+        Me.Reverse.TabIndex = 1
+        Me.Reverse.Text = "Reverse"
+        Me.Reverse.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Right
         '
-        Me.Button3.Location = New System.Drawing.Point(645, 276)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 75)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Right"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Right.Location = New System.Drawing.Point(580, 230)
+        Me.Right.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Right.Name = "Right"
+        Me.Right.Size = New System.Drawing.Size(110, 110)
+        Me.Right.TabIndex = 2
+        Me.Right.Text = "Right"
+        Me.Right.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Left
         '
-        Me.Button4.Location = New System.Drawing.Point(252, 276)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 75)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Left"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Left.Location = New System.Drawing.Point(280, 230)
+        Me.Left.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Left.Name = "Left"
+        Me.Left.Size = New System.Drawing.Size(110, 110)
+        Me.Left.TabIndex = 3
+        Me.Left.Text = "Left"
+        Me.Left.UseVisualStyleBackColor = True
         '
-        'Button5
+        'Close
         '
-        Me.Button5.Location = New System.Drawing.Point(118, 485)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 75)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Back"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Close.Location = New System.Drawing.Point(740, 450)
+        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Name = "Close"
+        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.TabIndex = 5
+        Me.Close.Text = "Close"
+        Me.Close.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Timer1
         '
-        Me.Button6.Location = New System.Drawing.Point(777, 485)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 75)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Home"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
         '
         'Movement
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(968, 671)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.Controls.Add(Me.Close)
+        Me.Controls.Add(Me.Left)
+        Me.Controls.Add(Me.Right)
+        Me.Controls.Add(Me.Reverse)
+        Me.Controls.Add(Me.Forward)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Movement"
         Me.Text = "Movement"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
+    Friend WithEvents Forward As Button
+    Friend WithEvents Reverse As Button
+    Friend WithEvents Right As Button
+    Friend WithEvents Left As Button
+    Friend WithEvents Close As Button
+    Friend WithEvents Timer1 As Timer
 End Class
