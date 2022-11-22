@@ -24,10 +24,6 @@ Partial Class Environment
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Environment))
-        Me.Env_Apartment = New System.Windows.Forms.RadioButton()
-        Me.Env_Bedroom = New System.Windows.Forms.RadioButton()
-        Me.Env_Living = New System.Windows.Forms.RadioButton()
-        Me.Env_Kitchen = New System.Windows.Forms.RadioButton()
         Me.Env_Light_On = New System.Windows.Forms.Button()
         Me.Env_Lights_Off = New System.Windows.Forms.Button()
         Me.Env_Win_Open = New System.Windows.Forms.Button()
@@ -45,52 +41,11 @@ Partial Class Environment
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Close = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Env_Apartment = New System.Windows.Forms.CheckBox()
+        Me.Env_Bedroom = New System.Windows.Forms.CheckBox()
+        Me.Env_Kitchen = New System.Windows.Forms.CheckBox()
+        Me.Env_Living = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
-        '
-        'Env_Apartment
-        '
-        Me.Env_Apartment.AutoSize = True
-        Me.Env_Apartment.Checked = True
-        Me.Env_Apartment.Location = New System.Drawing.Point(168, 93)
-        Me.Env_Apartment.Name = "Env_Apartment"
-        Me.Env_Apartment.Size = New System.Drawing.Size(82, 19)
-        Me.Env_Apartment.TabIndex = 0
-        Me.Env_Apartment.TabStop = True
-        Me.Env_Apartment.Text = "Apartment"
-        Me.Env_Apartment.UseVisualStyleBackColor = True
-        '
-        'Env_Bedroom
-        '
-        Me.Env_Bedroom.AutoSize = True
-        Me.Env_Bedroom.Location = New System.Drawing.Point(325, 93)
-        Me.Env_Bedroom.Name = "Env_Bedroom"
-        Me.Env_Bedroom.Size = New System.Drawing.Size(74, 19)
-        Me.Env_Bedroom.TabIndex = 1
-        Me.Env_Bedroom.TabStop = True
-        Me.Env_Bedroom.Text = "Bedroom"
-        Me.Env_Bedroom.UseVisualStyleBackColor = True
-        '
-        'Env_Living
-        '
-        Me.Env_Living.AutoSize = True
-        Me.Env_Living.Location = New System.Drawing.Point(494, 93)
-        Me.Env_Living.Name = "Env_Living"
-        Me.Env_Living.Size = New System.Drawing.Size(57, 19)
-        Me.Env_Living.TabIndex = 2
-        Me.Env_Living.TabStop = True
-        Me.Env_Living.Text = "Living"
-        Me.Env_Living.UseVisualStyleBackColor = True
-        '
-        'Env_Kitchen
-        '
-        Me.Env_Kitchen.AutoSize = True
-        Me.Env_Kitchen.Location = New System.Drawing.Point(629, 93)
-        Me.Env_Kitchen.Name = "Env_Kitchen"
-        Me.Env_Kitchen.Size = New System.Drawing.Size(65, 19)
-        Me.Env_Kitchen.TabIndex = 3
-        Me.Env_Kitchen.TabStop = True
-        Me.Env_Kitchen.Text = "Kitchen"
-        Me.Env_Kitchen.UseVisualStyleBackColor = True
         '
         'Env_Light_On
         '
@@ -242,6 +197,46 @@ Partial Class Environment
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1000
         '
+        'Env_Apartment
+        '
+        Me.Env_Apartment.AutoSize = True
+        Me.Env_Apartment.Location = New System.Drawing.Point(146, 97)
+        Me.Env_Apartment.Name = "Env_Apartment"
+        Me.Env_Apartment.Size = New System.Drawing.Size(83, 19)
+        Me.Env_Apartment.TabIndex = 21
+        Me.Env_Apartment.Text = "Apartment"
+        Me.Env_Apartment.UseVisualStyleBackColor = True
+        '
+        'Env_Bedroom
+        '
+        Me.Env_Bedroom.AutoSize = True
+        Me.Env_Bedroom.Location = New System.Drawing.Point(296, 97)
+        Me.Env_Bedroom.Name = "Env_Bedroom"
+        Me.Env_Bedroom.Size = New System.Drawing.Size(75, 19)
+        Me.Env_Bedroom.TabIndex = 22
+        Me.Env_Bedroom.Text = "Bedroom"
+        Me.Env_Bedroom.UseVisualStyleBackColor = True
+        '
+        'Env_Kitchen
+        '
+        Me.Env_Kitchen.AutoSize = True
+        Me.Env_Kitchen.Location = New System.Drawing.Point(462, 97)
+        Me.Env_Kitchen.Name = "Env_Kitchen"
+        Me.Env_Kitchen.Size = New System.Drawing.Size(66, 19)
+        Me.Env_Kitchen.TabIndex = 23
+        Me.Env_Kitchen.Text = "Kitchen"
+        Me.Env_Kitchen.UseVisualStyleBackColor = True
+        '
+        'Env_Living
+        '
+        Me.Env_Living.AutoSize = True
+        Me.Env_Living.Location = New System.Drawing.Point(610, 97)
+        Me.Env_Living.Name = "Env_Living"
+        Me.Env_Living.Size = New System.Drawing.Size(93, 19)
+        Me.Env_Living.TabIndex = 24
+        Me.Env_Living.Text = "Living Room"
+        Me.Env_Living.UseVisualStyleBackColor = True
+        '
         'Environment
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -249,6 +244,10 @@ Partial Class Environment
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(859, 565)
+        Me.Controls.Add(Me.Env_Living)
+        Me.Controls.Add(Me.Env_Kitchen)
+        Me.Controls.Add(Me.Env_Bedroom)
+        Me.Controls.Add(Me.Env_Apartment)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Temperture_Display)
@@ -265,10 +264,6 @@ Partial Class Environment
         Me.Controls.Add(Me.Env_Win_Open)
         Me.Controls.Add(Me.Env_Lights_Off)
         Me.Controls.Add(Me.Env_Light_On)
-        Me.Controls.Add(Me.Env_Kitchen)
-        Me.Controls.Add(Me.Env_Living)
-        Me.Controls.Add(Me.Env_Bedroom)
-        Me.Controls.Add(Me.Env_Apartment)
         Me.DoubleBuffered = True
         Me.Name = "Environment"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -277,11 +272,6 @@ Partial Class Environment
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Env_Apartment As RadioButton
-    Friend WithEvents Env_Bedroom As RadioButton
-    Friend WithEvents Env_Living As RadioButton
-    Friend WithEvents Env_Kitchen As RadioButton
     Friend WithEvents Env_Light_On As Button
     Friend WithEvents Env_Lights_Off As Button
     Friend WithEvents Env_Win_Open As Button
@@ -325,8 +315,8 @@ Partial Class Environment
 
         Me.selectionSequence(0) = Me.Env_Apartment
         Me.selectionSequence(1) = Me.Env_Bedroom
-        Me.selectionSequence(2) = Me.Env_Living
-        Me.selectionSequence(3) = Me.Env_Kitchen
+        Me.selectionSequence(2) = Me.Env_Kitchen
+        Me.selectionSequence(3) = Me.Env_Living
         Me.selectionSequence(4) = Me.Env_Light_On
         Me.selectionSequence(5) = Me.Env_Lights_Off
         Me.selectionSequence(6) = Me.Env_Win_Open
@@ -360,25 +350,25 @@ Partial Class Environment
                 Case Me.Close.Name
                     ActiveForm.Close()
                 Case Me.Env_Apartment.Name
-                    Env_Bedroom.Checked = False
-                    Env_Kitchen.Checked = False
-                    Env_Living.Checked = False
+                    'Env_Bedroom.Checked = False
+                    'Env_Kitchen.Checked = False
+                    'Env_Living.Checked = False
                     Env_Apartment.Checked = True
                 Case Me.Env_Bedroom.Name
                     Env_Bedroom.Checked = True
-                    Env_Kitchen.Checked = False
-                    Env_Living.Checked = False
-                    Env_Apartment.Checked = False
+                    'Env_Kitchen.Checked = False
+                    'Env_Living.Checked = False
+                    'Env_Apartment.Checked = False
                 Case Me.Env_Kitchen.Name
                     Env_Kitchen.Checked = True
-                    Env_Living.Checked = False
-                    Env_Bedroom.Checked = False
-                    Env_Apartment.Checked = False
+                    'Env_Living.Checked = False
+                    'Env_Bedroom.Checked = False
+                    'Env_Apartment.Checked = False
                 Case Me.Env_Living.Name
                     Env_Living.Checked = True
-                    Env_Bedroom.Checked = False
-                    Env_Kitchen.Checked = False
-                    Env_Apartment.Checked = False
+                    'Env_Bedroom.Checked = False
+                    'Env_Kitchen.Checked = False
+                    'Env_Apartment.Checked = False
                 Case Me.Env_Light_On.Name
                     MsgBox("The lights are now on.")
                 Case Me.Env_Lights_Off.Name
@@ -431,4 +421,9 @@ Partial Class Environment
     Private Sub Close_Click(sender As Object, e As EventArgs) Handles Close.Click
         ActiveForm.Close()
     End Sub
+
+    Friend WithEvents Env_Apartment As CheckBox
+    Friend WithEvents Env_Bedroom As CheckBox
+    Friend WithEvents Env_Kitchen As CheckBox
+    Friend WithEvents Env_Living As CheckBox
 End Class

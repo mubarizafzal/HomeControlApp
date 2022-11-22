@@ -29,10 +29,10 @@ Partial Class Door
         Me.Door_Unlock = New System.Windows.Forms.Button()
         Me.Door_Open = New System.Windows.Forms.Button()
         Me.Close = New System.Windows.Forms.Button()
-        Me.Building_Door = New System.Windows.Forms.RadioButton()
-        Me.Apartment_Door = New System.Windows.Forms.RadioButton()
-        Me.Hallway_Door = New System.Windows.Forms.RadioButton()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Building_Door = New System.Windows.Forms.CheckBox()
+        Me.Apartment_Door = New System.Windows.Forms.CheckBox()
+        Me.Hallway_Door = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'Door_Lock
@@ -80,40 +80,40 @@ Partial Class Door
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
         'Building_Door
         '
         Me.Building_Door.AutoSize = True
-        Me.Building_Door.Location = New System.Drawing.Point(124, 110)
+        Me.Building_Door.Location = New System.Drawing.Point(153, 121)
         Me.Building_Door.Name = "Building_Door"
-        Me.Building_Door.Size = New System.Drawing.Size(129, 19)
-        Me.Building_Door.TabIndex = 9
+        Me.Building_Door.Size = New System.Drawing.Size(130, 19)
+        Me.Building_Door.TabIndex = 12
         Me.Building_Door.Text = "Building Front Door"
         Me.Building_Door.UseVisualStyleBackColor = True
         '
         'Apartment_Door
         '
         Me.Apartment_Door.AutoSize = True
-        Me.Apartment_Door.Location = New System.Drawing.Point(366, 110)
+        Me.Apartment_Door.Location = New System.Drawing.Point(365, 121)
         Me.Apartment_Door.Name = "Apartment_Door"
-        Me.Apartment_Door.Size = New System.Drawing.Size(111, 19)
-        Me.Apartment_Door.TabIndex = 10
+        Me.Apartment_Door.Size = New System.Drawing.Size(112, 19)
+        Me.Apartment_Door.TabIndex = 13
         Me.Apartment_Door.Text = "Apartment Door"
         Me.Apartment_Door.UseVisualStyleBackColor = True
         '
         'Hallway_Door
         '
         Me.Hallway_Door.AutoSize = True
-        Me.Hallway_Door.Location = New System.Drawing.Point(605, 110)
+        Me.Hallway_Door.Location = New System.Drawing.Point(590, 121)
         Me.Hallway_Door.Name = "Hallway_Door"
-        Me.Hallway_Door.Size = New System.Drawing.Size(96, 19)
-        Me.Hallway_Door.TabIndex = 11
+        Me.Hallway_Door.Size = New System.Drawing.Size(97, 19)
+        Me.Hallway_Door.TabIndex = 14
         Me.Hallway_Door.Text = "Hallway Door"
         Me.Hallway_Door.UseVisualStyleBackColor = True
-        '
-        'Timer1
-        '
-        Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 1000
         '
         'Door
         '
@@ -143,8 +143,8 @@ Partial Class Door
     Friend WithEvents Door_Unlock As Button
     Friend WithEvents Door_Open As Button
     Friend WithEvents Close As Button
-    Friend WithEvents Building_Door As RadioButton
-    Friend WithEvents Apartment_Door As RadioButton
-    Friend WithEvents Hallway_Door As RadioButton
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Building_Door As CheckBox
+    Friend WithEvents Apartment_Door As CheckBox
+    Friend WithEvents Hallway_Door As CheckBox
 End Class

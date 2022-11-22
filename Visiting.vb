@@ -59,45 +59,45 @@
 
                 Case Me.Visit_201.Name
                     Visit_201.Checked = True
-                    'Visit_202.Checked = False
-                    'Visit_203.Checked = False
-                    'Visit_301.Checked = False
-                    'Visit_302.Checked = False
-                    'Visit_303.Checked = False
+                    Visit_202.Checked = False
+                    Visit_203.Checked = False
+                    Visit_301.Checked = False
+                    Visit_302.Checked = False
+                    Visit_303.Checked = False
                 Case Me.Visit_202.Name
-                    'Visit_201.Checked = False
+                    Visit_201.Checked = False
                     Visit_202.Checked = True
-                    'Visit_203.Checked = False
-                    'Visit_301.Checked = False
-                    'Visit_302.Checked = False
-                    'Visit_303.Checked = False
+                    Visit_203.Checked = False
+                    Visit_301.Checked = False
+                    Visit_302.Checked = False
+                    Visit_303.Checked = False
                 Case Me.Visit_203.Name
-                    'Visit_201.Checked = False
-                    'Visit_202.Checked = False
+                    Visit_201.Checked = False
+                    Visit_202.Checked = False
                     Visit_203.Checked = True
-                    'Visit_301.Checked = False
-                    'Visit_302.Checked = False
-                    'Visit_303.Checked = False
+                    Visit_301.Checked = False
+                    Visit_302.Checked = False
+                    Visit_303.Checked = False
                 Case Me.Visit_301.Name
-                    'Visit_201.Checked = False
-                    'Visit_202.Checked = False
-                    'Visit_203.Checked = False
+                    Visit_201.Checked = False
+                    Visit_202.Checked = False
+                    Visit_203.Checked = False
                     Visit_301.Checked = True
-                    'Visit_302.Checked = False
-                    'Visit_303.Checked = False
+                    Visit_302.Checked = False
+                    Visit_303.Checked = False
                 Case Me.Visit_302.Name
-                    'Visit_201.Checked = False
-                    'Visit_202.Checked = False
-                    'Visit_203.Checked = False
-                    'Visit_301.Checked = False
+                    Visit_201.Checked = False
+                    Visit_202.Checked = False
+                    Visit_203.Checked = False
+                    Visit_301.Checked = False
                     Visit_302.Checked = True
-                    'Visit_303.Checked = False
+                    Visit_303.Checked = False
                 Case Me.Visit_303.Name
-                    'Visit_201.Checked = False
-                    'Visit_202.Checked = False
-                    'Visit_203.Checked = False
-                    'Visit_301.Checked = False
-                    'Visit_302.Checked = False
+                    Visit_201.Checked = False
+                    Visit_202.Checked = False
+                    Visit_203.Checked = False
+                    Visit_301.Checked = False
+                    Visit_302.Checked = False
                     Visit_303.Checked = True
                 Case Me.Visit_Doorbell.Name
                     MsgBox("The doorbell has been rung.")
