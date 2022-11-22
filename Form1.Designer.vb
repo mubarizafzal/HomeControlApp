@@ -38,10 +38,9 @@ Partial Class Form1
         '
         'Movement
         '
-        Me.Movement.Location = New System.Drawing.Point(140, 120)
-        Me.Movement.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Movement.Location = New System.Drawing.Point(122, 90)
         Me.Movement.Name = "Movement"
-        Me.Movement.Size = New System.Drawing.Size(110, 110)
+        Me.Movement.Size = New System.Drawing.Size(96, 82)
         Me.Movement.TabIndex = 0
         Me.Movement.TabStop = False
         Me.Movement.Text = "Movement"
@@ -49,10 +48,9 @@ Partial Class Form1
         '
         'CallAssist
         '
-        Me.CallAssist.Location = New System.Drawing.Point(310, 120)
-        Me.CallAssist.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.CallAssist.Location = New System.Drawing.Point(271, 90)
         Me.CallAssist.Name = "CallAssist"
-        Me.CallAssist.Size = New System.Drawing.Size(110, 110)
+        Me.CallAssist.Size = New System.Drawing.Size(96, 82)
         Me.CallAssist.TabIndex = 1
         Me.CallAssist.TabStop = False
         Me.CallAssist.Text = "Call For Assistance"
@@ -60,10 +58,9 @@ Partial Class Form1
         '
         'Door
         '
-        Me.Door.Location = New System.Drawing.Point(480, 120)
-        Me.Door.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Door.Location = New System.Drawing.Point(420, 90)
         Me.Door.Name = "Door"
-        Me.Door.Size = New System.Drawing.Size(110, 110)
+        Me.Door.Size = New System.Drawing.Size(96, 82)
         Me.Door.TabIndex = 2
         Me.Door.TabStop = False
         Me.Door.Text = "Door Controls"
@@ -71,10 +68,9 @@ Partial Class Form1
         '
         'Elevator
         '
-        Me.Elevator.Location = New System.Drawing.Point(650, 120)
-        Me.Elevator.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Elevator.Location = New System.Drawing.Point(569, 90)
         Me.Elevator.Name = "Elevator"
-        Me.Elevator.Size = New System.Drawing.Size(110, 110)
+        Me.Elevator.Size = New System.Drawing.Size(96, 82)
         Me.Elevator.TabIndex = 3
         Me.Elevator.TabStop = False
         Me.Elevator.Text = "Elevator"
@@ -82,50 +78,45 @@ Partial Class Form1
         '
         'Apartment
         '
-        Me.Apartment.Location = New System.Drawing.Point(140, 280)
-        Me.Apartment.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Apartment.Location = New System.Drawing.Point(122, 210)
         Me.Apartment.Name = "Apartment"
-        Me.Apartment.Size = New System.Drawing.Size(110, 110)
+        Me.Apartment.Size = New System.Drawing.Size(96, 82)
         Me.Apartment.TabIndex = 4
         Me.Apartment.Text = "Apartment Control"
         Me.Apartment.UseVisualStyleBackColor = True
         '
         'Visiting
         '
-        Me.Visiting.Location = New System.Drawing.Point(310, 280)
-        Me.Visiting.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Visiting.Location = New System.Drawing.Point(271, 210)
         Me.Visiting.Name = "Visiting"
-        Me.Visiting.Size = New System.Drawing.Size(110, 110)
+        Me.Visiting.Size = New System.Drawing.Size(96, 82)
         Me.Visiting.TabIndex = 5
         Me.Visiting.Text = "Visiting Apartment"
         Me.Visiting.UseVisualStyleBackColor = True
         '
         'Entertainment
         '
-        Me.Entertainment.Location = New System.Drawing.Point(480, 280)
-        Me.Entertainment.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Entertainment.Location = New System.Drawing.Point(420, 210)
         Me.Entertainment.Name = "Entertainment"
-        Me.Entertainment.Size = New System.Drawing.Size(110, 110)
+        Me.Entertainment.Size = New System.Drawing.Size(96, 82)
         Me.Entertainment.TabIndex = 6
         Me.Entertainment.Text = "Entertaiment"
         Me.Entertainment.UseVisualStyleBackColor = True
         '
         'Bed
         '
-        Me.Bed.Location = New System.Drawing.Point(650, 280)
-        Me.Bed.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Bed.Location = New System.Drawing.Point(569, 210)
         Me.Bed.Name = "Bed"
-        Me.Bed.Size = New System.Drawing.Size(110, 110)
+        Me.Bed.Size = New System.Drawing.Size(96, 82)
         Me.Bed.TabIndex = 7
         Me.Bed.Text = "Bed Controls"
         Me.Bed.UseVisualStyleBackColor = True
         '
         'Communication
         '
-        Me.Communication.Location = New System.Drawing.Point(140, 440)
-        Me.Communication.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Communication.Location = New System.Drawing.Point(122, 330)
         Me.Communication.Name = "Communication"
-        Me.Communication.Size = New System.Drawing.Size(110, 110)
+        Me.Communication.Size = New System.Drawing.Size(96, 82)
         Me.Communication.TabIndex = 8
         Me.Communication.Text = "Communic -ation"
         Me.Communication.UseVisualStyleBackColor = True
@@ -137,11 +128,11 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Communication)
         Me.Controls.Add(Me.Bed)
         Me.Controls.Add(Me.Entertainment)
@@ -151,6 +142,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Door)
         Me.Controls.Add(Me.CallAssist)
         Me.Controls.Add(Me.Movement)
+        Me.DoubleBuffered = True
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Home"
