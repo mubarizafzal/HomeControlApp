@@ -22,12 +22,13 @@ Partial Class SelectFloor
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SelectFloor))
         Me.Ele_Floor1 = New System.Windows.Forms.Button()
         Me.Ele_Floor2 = New System.Windows.Forms.Button()
         Me.Ele_Floor3 = New System.Windows.Forms.Button()
-        Me.Sel_Floor_Back = New System.Windows.Forms.Button()
-        Me.Sel_Floor_Home = New System.Windows.Forms.Button()
+        Me.Close = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Ele_Floor1
@@ -57,23 +58,19 @@ Partial Class SelectFloor
         Me.Ele_Floor3.Text = "Floor 3"
         Me.Ele_Floor3.UseVisualStyleBackColor = True
         '
-        'Sel_Floor_Back
+        'Close
         '
-        Me.Sel_Floor_Back.Location = New System.Drawing.Point(96, 500)
-        Me.Sel_Floor_Back.Name = "Sel_Floor_Back"
-        Me.Sel_Floor_Back.Size = New System.Drawing.Size(75, 75)
-        Me.Sel_Floor_Back.TabIndex = 3
-        Me.Sel_Floor_Back.Text = "Back"
-        Me.Sel_Floor_Back.UseVisualStyleBackColor = True
+        Me.Close.Location = New System.Drawing.Point(710, 412)
+        Me.Close.Name = "Close"
+        Me.Close.Size = New System.Drawing.Size(75, 75)
+        Me.Close.TabIndex = 4
+        Me.Close.Text = "Close"
+        Me.Close.UseVisualStyleBackColor = True
         '
-        'Sel_Floor_Home
+        'Timer1
         '
-        Me.Sel_Floor_Home.Location = New System.Drawing.Point(797, 500)
-        Me.Sel_Floor_Home.Name = "Sel_Floor_Home"
-        Me.Sel_Floor_Home.Size = New System.Drawing.Size(75, 75)
-        Me.Sel_Floor_Home.TabIndex = 4
-        Me.Sel_Floor_Home.Text = "Home"
-        Me.Sel_Floor_Home.UseVisualStyleBackColor = True
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
         '
         'SelectFloor
         '
@@ -81,8 +78,7 @@ Partial Class SelectFloor
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(968, 671)
-        Me.Controls.Add(Me.Sel_Floor_Home)
-        Me.Controls.Add(Me.Sel_Floor_Back)
+        Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Ele_Floor3)
         Me.Controls.Add(Me.Ele_Floor2)
         Me.Controls.Add(Me.Ele_Floor1)
@@ -95,6 +91,6 @@ Partial Class SelectFloor
     Friend WithEvents Ele_Floor1 As Button
     Friend WithEvents Ele_Floor2 As Button
     Friend WithEvents Ele_Floor3 As Button
-    Friend WithEvents Sel_Floor_Back As Button
-    Friend WithEvents Sel_Floor_Home As Button
+    Friend WithEvents Close As Button
+    Friend WithEvents Timer1 As Timer
 End Class

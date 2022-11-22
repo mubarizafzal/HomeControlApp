@@ -34,50 +34,45 @@ Partial Class Movement
         '
         'Forward
         '
-        Me.Forward.Location = New System.Drawing.Point(430, 130)
-        Me.Forward.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Forward.Location = New System.Drawing.Point(376, 98)
         Me.Forward.Name = "Forward"
-        Me.Forward.Size = New System.Drawing.Size(110, 110)
+        Me.Forward.Size = New System.Drawing.Size(96, 82)
         Me.Forward.TabIndex = 0
         Me.Forward.Text = "Forward"
         Me.Forward.UseVisualStyleBackColor = True
         '
         'Reverse
         '
-        Me.Reverse.Location = New System.Drawing.Point(430, 330)
-        Me.Reverse.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Reverse.Location = New System.Drawing.Point(376, 248)
         Me.Reverse.Name = "Reverse"
-        Me.Reverse.Size = New System.Drawing.Size(110, 110)
+        Me.Reverse.Size = New System.Drawing.Size(96, 82)
         Me.Reverse.TabIndex = 1
         Me.Reverse.Text = "Reverse"
         Me.Reverse.UseVisualStyleBackColor = True
         '
         'Right
         '
-        Me.Right.Location = New System.Drawing.Point(580, 230)
-        Me.Right.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Right.Location = New System.Drawing.Point(508, 172)
         Me.Right.Name = "Right"
-        Me.Right.Size = New System.Drawing.Size(110, 110)
+        Me.Right.Size = New System.Drawing.Size(96, 82)
         Me.Right.TabIndex = 2
         Me.Right.Text = "Right"
         Me.Right.UseVisualStyleBackColor = True
         '
         'Left
         '
-        Me.Left.Location = New System.Drawing.Point(280, 230)
-        Me.Left.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Left.Location = New System.Drawing.Point(245, 172)
         Me.Left.Name = "Left"
-        Me.Left.Size = New System.Drawing.Size(110, 110)
+        Me.Left.Size = New System.Drawing.Size(96, 82)
         Me.Left.TabIndex = 3
         Me.Left.Text = "Left"
         Me.Left.UseVisualStyleBackColor = True
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(740, 450)
-        Me.Close.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Close.Location = New System.Drawing.Point(648, 338)
         Me.Close.Name = "Close"
-        Me.Close.Size = New System.Drawing.Size(110, 110)
+        Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 5
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
@@ -89,18 +84,18 @@ Partial Class Movement
         '
         'Movement
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(982, 753)
+        Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Close)
         Me.Controls.Add(Me.Left)
         Me.Controls.Add(Me.Right)
         Me.Controls.Add(Me.Reverse)
         Me.Controls.Add(Me.Forward)
-        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Movement"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Movement"
         Me.ResumeLayout(False)
 

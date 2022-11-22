@@ -37,9 +37,19 @@
 
     Private Sub Assistance_KeyPress(sender As Object, e As KeyPressEventArgs) Handles MyBase.KeyPress
         If e.KeyChar = " " Then
-            If Me.selectionSequence(selectionIndex).Name = "Close" Then
-                ActiveForm.Close()
-            End If
+            Dim currentSelection As Object = selectionSequence(selectionIndex)
+            ' Open the appropriate window based on the current selection
+            Select Case currentSelection.Name
+                Case Me.Close.Name
+                    ActiveForm.Close()
+                Case Me.Assist_Confirm.Name
+                    ActiveForm.Close()
+                Case Me.Assist_Again.Name
+                    MsgBox("A second request for help has been sent.")
+                Case Me.Cancel.Name
+                    MsgBox("your request for help has been cancelled.")
+                    ActiveForm.Close()
+            End Select
         End If
     End Sub
 End Class
