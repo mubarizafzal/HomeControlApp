@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Visiting
     Inherits System.Windows.Forms.Form
 
@@ -25,115 +25,99 @@ Partial Class Visiting
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Visiting))
         Me.Close = New System.Windows.Forms.Button()
-        Me.Visit_Floor1 = New System.Windows.Forms.RadioButton()
-        Me.Visit_Floor2 = New System.Windows.Forms.RadioButton()
-        Me.Visit_Floor3 = New System.Windows.Forms.RadioButton()
-        Me.Visit_Apart1 = New System.Windows.Forms.RadioButton()
-        Me.Visit_Apart2 = New System.Windows.Forms.RadioButton()
-        Me.Visit_Apart3 = New System.Windows.Forms.RadioButton()
+        Me.Visit_201 = New System.Windows.Forms.RadioButton()
+        Me.Visit_202 = New System.Windows.Forms.RadioButton()
+        Me.Visit_203 = New System.Windows.Forms.RadioButton()
+        Me.Visit_301 = New System.Windows.Forms.RadioButton()
+        Me.Visit_302 = New System.Windows.Forms.RadioButton()
+        Me.Visit_303 = New System.Windows.Forms.RadioButton()
         Me.Visit_Doorbell = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Close
         '
-        Me.Close.Location = New System.Drawing.Point(674, 386)
+        Me.Close.Location = New System.Drawing.Point(649, 336)
         Me.Close.Name = "Close"
         Me.Close.Size = New System.Drawing.Size(96, 82)
         Me.Close.TabIndex = 2
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
         '
-        'Visit_Floor1
+        'Visit_201
         '
-        Me.Visit_Floor1.AutoSize = True
-        Me.Visit_Floor1.Location = New System.Drawing.Point(191, 130)
-        Me.Visit_Floor1.Name = "Visit_Floor1"
-        Me.Visit_Floor1.Size = New System.Drawing.Size(61, 19)
-        Me.Visit_Floor1.TabIndex = 3
-        Me.Visit_Floor1.TabStop = True
-        Me.Visit_Floor1.Text = "Floor 1"
-        Me.Visit_Floor1.UseVisualStyleBackColor = True
+        Me.Visit_201.AutoSize = True
+        Me.Visit_201.Location = New System.Drawing.Point(179, 116)
+        Me.Visit_201.Name = "Visit_201"
+        Me.Visit_201.Size = New System.Drawing.Size(43, 19)
+        Me.Visit_201.TabIndex = 3
+        Me.Visit_201.Text = "201"
+        Me.Visit_201.UseVisualStyleBackColor = True
         '
-        'Visit_Floor2
+        'Visit_202
         '
-        Me.Visit_Floor2.AutoSize = True
-        Me.Visit_Floor2.Location = New System.Drawing.Point(405, 130)
-        Me.Visit_Floor2.Name = "Visit_Floor2"
-        Me.Visit_Floor2.Size = New System.Drawing.Size(61, 19)
-        Me.Visit_Floor2.TabIndex = 4
-        Me.Visit_Floor2.TabStop = True
-        Me.Visit_Floor2.Text = "Floor 2"
-        Me.Visit_Floor2.UseVisualStyleBackColor = True
+        Me.Visit_202.AutoSize = True
+        Me.Visit_202.Location = New System.Drawing.Point(393, 116)
+        Me.Visit_202.Name = "Visit_202"
+        Me.Visit_202.Size = New System.Drawing.Size(43, 19)
+        Me.Visit_202.TabIndex = 4
+        Me.Visit_202.Text = "202"
+        Me.Visit_202.UseVisualStyleBackColor = True
         '
-        'Visit_Floor3
+        'Visit_203
         '
-        Me.Visit_Floor3.AutoSize = True
-        Me.Visit_Floor3.Location = New System.Drawing.Point(613, 130)
-        Me.Visit_Floor3.Name = "Visit_Floor3"
-        Me.Visit_Floor3.Size = New System.Drawing.Size(61, 19)
-        Me.Visit_Floor3.TabIndex = 5
-        Me.Visit_Floor3.TabStop = True
-        Me.Visit_Floor3.Text = "Floor 3"
-        Me.Visit_Floor3.UseVisualStyleBackColor = True
+        Me.Visit_203.AutoSize = True
+        Me.Visit_203.Location = New System.Drawing.Point(601, 116)
+        Me.Visit_203.Name = "Visit_203"
+        Me.Visit_203.Size = New System.Drawing.Size(43, 19)
+        Me.Visit_203.TabIndex = 5
+        Me.Visit_203.Text = "203"
+        Me.Visit_203.UseVisualStyleBackColor = True
         '
-        'Visit_Apart1
+        'Visit_301
         '
-        Me.Visit_Apart1.AutoSize = True
-        Me.Visit_Apart1.Location = New System.Drawing.Point(165, 208)
-        Me.Visit_Apart1.Name = "Visit_Apart1"
-        Me.Visit_Apart1.Size = New System.Drawing.Size(91, 19)
-        Me.Visit_Apart1.TabIndex = 6
-        Me.Visit_Apart1.TabStop = True
-        Me.Visit_Apart1.Text = "Apartment 1"
-        Me.Visit_Apart1.UseVisualStyleBackColor = True
+        Me.Visit_301.AutoSize = True
+        Me.Visit_301.Location = New System.Drawing.Point(179, 194)
+        Me.Visit_301.Name = "Visit_301"
+        Me.Visit_301.Size = New System.Drawing.Size(43, 19)
+        Me.Visit_301.TabIndex = 6
+        Me.Visit_301.Text = "301"
+        Me.Visit_301.UseVisualStyleBackColor = True
         '
-        'Visit_Apart2
+        'Visit_302
         '
-        Me.Visit_Apart2.AutoSize = True
-        Me.Visit_Apart2.Location = New System.Drawing.Point(391, 208)
-        Me.Visit_Apart2.Name = "Visit_Apart2"
-        Me.Visit_Apart2.Size = New System.Drawing.Size(91, 19)
-        Me.Visit_Apart2.TabIndex = 7
-        Me.Visit_Apart2.TabStop = True
-        Me.Visit_Apart2.Text = "Apartment 2"
-        Me.Visit_Apart2.UseVisualStyleBackColor = True
+        Me.Visit_302.AutoSize = True
+        Me.Visit_302.Location = New System.Drawing.Point(393, 194)
+        Me.Visit_302.Name = "Visit_302"
+        Me.Visit_302.Size = New System.Drawing.Size(43, 19)
+        Me.Visit_302.TabIndex = 7
+        Me.Visit_302.Text = "302"
+        Me.Visit_302.UseVisualStyleBackColor = True
         '
-        'Visit_Apart3
+        'Visit_303
         '
-        Me.Visit_Apart3.AutoSize = True
-        Me.Visit_Apart3.Location = New System.Drawing.Point(602, 208)
-        Me.Visit_Apart3.Name = "Visit_Apart3"
-        Me.Visit_Apart3.Size = New System.Drawing.Size(91, 19)
-        Me.Visit_Apart3.TabIndex = 8
-        Me.Visit_Apart3.TabStop = True
-        Me.Visit_Apart3.Text = "Apartment 3"
-        Me.Visit_Apart3.UseVisualStyleBackColor = True
+        Me.Visit_303.AutoSize = True
+        Me.Visit_303.Location = New System.Drawing.Point(601, 194)
+        Me.Visit_303.Name = "Visit_303"
+        Me.Visit_303.Size = New System.Drawing.Size(43, 19)
+        Me.Visit_303.TabIndex = 8
+        Me.Visit_303.Text = "303"
+        Me.Visit_303.UseVisualStyleBackColor = True
         '
         'Visit_Doorbell
         '
-        Me.Visit_Doorbell.Location = New System.Drawing.Point(391, 268)
+        Me.Visit_Doorbell.Location = New System.Drawing.Point(382, 254)
         Me.Visit_Doorbell.Name = "Visit_Doorbell"
         Me.Visit_Doorbell.Size = New System.Drawing.Size(96, 82)
         Me.Visit_Doorbell.TabIndex = 9
         Me.Visit_Doorbell.Text = "Ring Doorbell"
         Me.Visit_Doorbell.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(418, 88)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(34, 15)
-        Me.Label1.TabIndex = 10
-        Me.Label1.Text = "Floor"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(384, 174)
+        Me.Label2.Location = New System.Drawing.Point(370, 77)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(111, 15)
         Me.Label2.TabIndex = 11
@@ -149,19 +133,17 @@ Partial Class Visiting
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(859, 565)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Visit_Doorbell)
-        Me.Controls.Add(Me.Visit_Apart3)
-        Me.Controls.Add(Me.Visit_Apart2)
-        Me.Controls.Add(Me.Visit_Apart1)
-        Me.Controls.Add(Me.Visit_Floor3)
-        Me.Controls.Add(Me.Visit_Floor2)
-        Me.Controls.Add(Me.Visit_Floor1)
+        Me.Controls.Add(Me.Visit_303)
+        Me.Controls.Add(Me.Visit_302)
+        Me.Controls.Add(Me.Visit_301)
+        Me.Controls.Add(Me.Visit_203)
+        Me.Controls.Add(Me.Visit_202)
+        Me.Controls.Add(Me.Visit_201)
         Me.Controls.Add(Me.Close)
-        Me.DoubleBuffered = True
         Me.Name = "Visiting"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Visiting"
@@ -170,14 +152,13 @@ Partial Class Visiting
 
     End Sub
     Friend WithEvents Close As Button
-    Friend WithEvents Visit_Floor1 As RadioButton
-    Friend WithEvents Visit_Floor2 As RadioButton
-    Friend WithEvents Visit_Floor3 As RadioButton
-    Friend WithEvents Visit_Apart1 As RadioButton
-    Friend WithEvents Visit_Apart2 As RadioButton
-    Friend WithEvents Visit_Apart3 As RadioButton
+    Friend WithEvents Visit_201 As RadioButton
+    Friend WithEvents Visit_202 As RadioButton
+    Friend WithEvents Visit_203 As RadioButton
+    Friend WithEvents Visit_301 As RadioButton
+    Friend WithEvents Visit_302 As RadioButton
+    Friend WithEvents Visit_303 As RadioButton
     Friend WithEvents Visit_Doorbell As Button
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Timer1 As Timer
 End Class
